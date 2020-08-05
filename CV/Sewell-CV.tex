@@ -6,9 +6,11 @@
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \usepackage{amssymb,enumerate, latexsym,amsmath,graphicx,epstopdf,dsfont,outlines,tikz,placeins,amsthm,subfigure,changepage,relsize,enumitem,etoolbox}
-\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
-%\usepackage{natbib}
-%\usepackage{bibentry}
+
+\usepackage[backend=biber,sorting=ydnt,style=nature]{biblatex}
+\addbibresource{Sewell-bib.bib}
+
+
 \usepackage{multicol,pbox}
 \usepackage[margin=0.6in]{geometry}
 \usepackage{lmodern,slantsc,longtable}
@@ -23,14 +25,49 @@
 %\linespread{1.25}
 \setlength\parindent{0pt}
 
-
 \pagestyle{empty}
 \begin{document}
-\nocite{*}
-%\bibliographystyle{H:/asa}
-\bibliographystyle{plain}
-%\nobibliography*
 
+\nocite{anthony2017seasonal}
+\nocite{anthony2018seasonal}
+\nocite{baker2018fecalfingerprints}
+\nocite{baquero2018active}
+\nocite{bernhard2017clustering}
+\nocite{danielulloa2020demographic}
+\nocite{devotta2017spatial}
+\nocite{dow2017teamwork}
+\nocite{dow2019evaluating}
+\nocite{jang2019evaluating}
+\nocite{jang2020datadriven}
+\nocite{kava2018organizational}
+\nocite{kava2018qualitative}
+\nocite{kava2019associations}
+\nocite{li2020comparison}
+\nocite{medgyesi2018landscape}
+\nocite{medgyesi2018where}
+\nocite{Metcalf2018}
+\nocite{pai20spatiotemporal}
+\nocite{peterson2017warmer}
+\nocite{sato2018social}
+\nocite{sewell2015analysis}
+\nocite{sewell2015latent}
+\nocite{sewell2015parameter}
+\nocite{sewell2016model}
+\nocite{sewell2016weighted}
+\nocite{sewell2017heterogeneity}
+\nocite{sewell2017latent}
+\nocite{sewell2017network}
+\nocite{sewell2018simultaneous}
+\nocite{sewell2018visualizing}
+\nocite{sewell2019analysis}
+\nocite{sewell2019css}
+\nocite{sewell2019estimating}
+\nocite{sewell2019multilinear}
+\nocite{sewell2020model}
+\nocite{sewell2020predicting}
+\nocite{sewell2020simulationfree}
+\nocite{simmering2017legionnaires}
+\nocite{zhu2019identifying}
 
 %\pagestyle{empty} % Removes page numbering
 
@@ -88,9 +125,8 @@
 \end{tabular}
 
 \vspace{0.5pc}
-\section{Publications}
-\bibliography{Sewell-bib}
-
+% \section{Publications}
+\printbibliography[title=Publications]
 
 \section{Awards}
 \begin{tabular}{r|p{16cm}}

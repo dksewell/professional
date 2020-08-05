@@ -1,0 +1,163 @@
+2020.1
+METHODS 2
+- BIOSTAT: 5.9
+- STUCORE: 5.8
+- Despite the exceptional challenges of the pandemic this semester, Dan maintained organization and clear expectations for his class.
+- The material was well taught and I enjoyed the course.
+- Your lectures through Zoom were the best I experienced this semester and kept me engaged!
+- The course was engaging and challenging and effort to have student participation in class was evident.
+
+
+
+2019.1
+Bayesian
+- BIOSTAT: 5.8
+- STUCORE: 5.7
+- Great examples used in class and having code available is extremely helpful.
+- Great Professor who gives engaging, well-prepared lectures, great examples and useful concepts are provided, course webpage is extremely well-designed with all useful info.
+- Professor Sewell was a tremendous help during 1-1 meetings about homework and our projects.
+- I was warned that this was going to be a painfully difficult class, but it turned out to be one of my favorite courses. It was challenging, which is expected and appreciated, but it was not overwhelming. The course is very organized, so I always had a clear idea of what the big picture was and where we were headed during lecture even if I didn't grasp the details during the first pass. ... After this course, I feel much more comfortable with Bayesian statistics and statistical computation. I would recommend this course to all biostatistics graduate students.
+
+
+
+2018.2
+SAND
+- BIOSTAT: 5.8
+- STUCORE: 5.8
+- This course was well run and covered a lot of ground. ... The instructor was enthusiastic and fun.
+- It is the best course I have taken in Iowa so far.
+- I thought the labs were a great way to cement and apply the ideas taught in lecture. 
+
+
+
+2018.1
+Methods 2
+- BIOSTAT: 5.9
+- STUCORE: 5.9
+- PEER: "He consistently asked appropriate questions of the students which provided opportunities to provide further explanation when needed. When responding to questions from the students, I thought Dan did a good job in explaining his answers to them."
+- Dr. Sewell was a great help in increasing my understanding of statistics and their application. I feel much more prepared to perform statistical tests and do basic analyses. The continuous use of practical examples and inclusion of R code that can be used in practice was a great help. I strongly believe that this class has shown me resources and techniques that will help me in the future and for that, I am very grateful!
+- Labs were a good length, and the homework assignments were challenging but reasonable and helped me understand the material better...  I would definitely recommend him as a passionate and helpful instructor to my fellow students. 
+- This course change my perspective of statistics and research, and I think I have a better understanding of both now.
+- The cycling/spiraling design of this course is excellent. ANOVA, SLR, MLR, and beyond were taught in a structure such that familiar concepts were revisited and built upon for each new method introduced. This review and comparison/contrasts at each step ideal for my learning.
+- The instructor anticipated potential pitfalls for students (e.g. rusty linear algebra) and gave students a "heads up" with time to address those.
+- Labs are very useful for visualizing and reinforcing new concepts.
+- Dan da man did a great job designing this course. His slides included snippets of code that were used to create the example plots, regressions and whatever else that was relevant to the lecture
+
+
+
+2017.2
+Methods 1
+- BIOSTAT: 5.4
+- STUCORE: 4.3
+- PEER: "Dr. Sewell is clearly enthusiastic about teaching, and interacts well with his students. The material was delivered with both authority and clarity. The pacing of the presentation seemed appropriate. The manner in which Dr. Sewell encouraged questions from the students was effective, and appeared to keep the students engaged."
+- The instructor is always willing to help, excited about teaching and inspiring interest in biostatistics, and is very passionate about the material. He gives his time very freely to students and seems happy to be providing us with that additional instruction. He is always prepared for class and can easily answer questions on the fly. 
+
+
+
+2017.1
+Bayesian
+- BIOSTAT: 5.7
+- STUCORE: 5.5
+- Dan was clearly enthusiastic about teaching this course -- his appreciation for the subject is obvious.
+- I think the final project is a good assignment and the final paper is instructive. I like that Dan encouraged students to work on problems related to their own research. 
+- Dan knows the material of the course really really well. Whatever questions he got during the class, he can answer them very clearly and with very deep insight.
+
+
+
+2016.1
+Methods 2
+- BIOSTAT: 5.7
+- STUCORE: 5.6
+- Dan is an excellent instructor. He has a very deep understanding of statistical theories and methods. I am totally amazed by how he could convey abstract and hard mathematical statistical concepts to non-math major students so clearly. Definitely learned a lot from his class. Besides, he is super warm hearted and has a great sense of humor. Overall speaking, he is an academic role model that I look up to.
+- The lab section is great. We learned lots of hands on experience in conducing simulation and data analysis. It is also very inspiring and thought provoking. It's teaching us not only methods to conduct the analysis, but also ways to set up the analysis.
+
+
+
+2015.2
+Methods 1
+- BIOSTAT: 5.3
+- STUCORE: 5.0
+- Excellent class. I really like how Dr. Sewell teaches the class. He always illustrates complex concepts and theorems in very easy to understand ways so even people with no statistical backgrounds can understand. It's not easy for a mathematician to do that. And he is super nice person in all ways!
+- The instructor is extremely passionate and makes lectures very interesting. 
+- Dr. Sewell was clearly passionate about the material and wanting to help in any way possible.
+
+------------------------------------------------------------------------
+
+
+###
+### Engagement
+###
+*Rapport/Safe Environment
+- And he is super nice person in all ways!
+- Dan da man did a great job designing this course
+- The instructor was enthusiastic and fun.
+- The instructor is extremely passionate and makes lectures very interesting. 
+- ...wanting to help in any way possible.
+- Definitely learned a lot from his class. Besides, he is super warm hearted and has a great sense of humor. Overall speaking, he is an academic role model that I look up to.
+- (PEER) Dr. Sewell is clearly enthusiastic about teaching, and interacts well with his students
+- He gives his time very freely to students and seems happy to be providing us with that additional instruction. 
+- Great Professor who gives engaging, well-prepared lectures, great examples and useful concepts are provided
+- Professor Sewell was a tremendous help during 1-1 meetings about homework and our projects.
+
+* Engendering passion
+- Dan was clearly enthusiastic about teaching this course -- his appreciation for the subject is obvious.
+- Dr. Sewell was clearly passionate about the material and wanting to help in any way possible.
+- The instructor is always willing to help, excited about teaching and inspiring interest in biostatistics, and is very passionate about the material. 
+- I would definitely recommend him as a passionate and helpful instructor to my fellow students.
+- (PEER) The manner in which Dr. Sewell encouraged questions from the students was effective, and appeared to keep the students engaged.
+
+
+
+###
+### High Expectations
+###
+- The course was engaging and challenging and effort to have student participation in class was evident.
+- It was challenging, which is expected and appreciated, but it was not overwhelming.
+
+
+
+###
+### Well-grounded
+###
+- Dr. Sewell was a great help in increasing my understanding of statistics and their application. I feel much more prepared to perform statistical tests and do basic analyses. The continuous use of practical examples and inclusion of R code that can be used in practice was a great help. I strongly believe that this class has shown me resources and techniques that will help me in the future and for that, I am very grateful!
+
+*Labs
+-The lab section is great. We learned lots of hands on experience in conducing simulation and data analysis. It is also very inspiring and thought provoking. It's teaching us not only methods to conduct the analysis, but also ways to set up the analysis.
+- Labs were a good length, and the homework assignments were challenging but reasonable and helped me understand the material better
+-Labs are very useful for visualizing and reinforcing new concepts.
+- I thought the labs were a great way to cement and apply the ideas taught in lecture.
+
+*Projects
+- I think the final project is a good assignment and the final paper is instructive. I like that Dan encouraged students to work on problems related to their own research. 
+
+*Examples
+- Great examples used in class and having code available is extremely helpful.
+
+
+###
+### Big picture
+###
+
+
+
+
+###
+### Evidence of quality
+###
+*Preparedness
+- Dan knows the material of the course really really well. Whatever questions he got during the class, he can answer them very clearly and with very deep insight.
+- He is always prepared for class and can easily answer questions on the fly. 
+- (PEER) When responding to questions from the students, I thought Dan did a good job in explaining his answers to them.
+- Despite the exceptional challenges of the pandemic this semester, Dan maintained organization and clear expectations for his class.
+- Your lectures through Zoom were the best I experienced this semester and kept me engaged!
+- Great Professor who gives engaging, well-prepared lectures, great examples and useful concepts are provided
+
+* Quotable quotes
+- Excellent class. I really like how Dr. Sewell teaches the class. He always illustrates complex concepts and theorems in very easy to understand ways so even people with no statistical backgrounds can understand. It's not easy for a mathematician to do that. 
+- Dan is an excellent instructor. He has a very deep understanding of statistical theories and methods. I am totally amazed by how he could convey abstract and hard mathematical statistical concepts to non-math major students so clearly.
+- Dan da man did a great job designing this course
+- [SAND] is the best course I have taken in Iowa so far.
+- The material was well taught and I enjoyed the course.
+
+* Improvement
+
