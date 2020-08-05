@@ -1,0 +1,300 @@
+\documentclass[11pt]{article}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{amssymb,enumerate, latexsym,amsmath,graphicx,epstopdf,dsfont,outlines,tikz,placeins,amsthm,subfigure,changepage,relsize,enumitem,etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+%\usepackage{natbib}
+%\usepackage{bibentry}
+\usepackage{multicol,pbox}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{lmodern,slantsc,longtable}
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{6pt} % Spacing around sections
+\titleformat{\subsection}{\large\scshape\raggedright}{}{0em}{} % Text formatting of sections
+\titlespacing{\subsection}{0pt}{3pt}{3pt} % Spacing around sections
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+%\renewcommand{\topfraction}{.95}
+%\linespread{1.25}
+\setlength\parindent{0pt}
+
+
+\pagestyle{empty}
+\begin{document}
+\nocite{*}
+%\bibliographystyle{H:/asa}
+\bibliographystyle{plain}
+%\nobibliography*
+
+
+%\pagestyle{empty} % Removes page numbering
+
+\begin{center}
+\Huge
+\textsc{Daniel K. Sewell}
+\normalsize
+\end{center}
+\begin{tabular}{rl}
+\textsc{Address:}&Department of Biostatistics \\
+&N338 CPHB\\
+&University of Iowa\\
+&145 N. Riverside Dr. 52242\\
+\textsc{Phone:} &(319) 384-1585 \\
+\textsc{Email:}&daniel-sewell@uiowa.edu
+\end{tabular}
+
+\vspace{1pc}
+\section{Education}
+\begin{tabular}{r|p{16cm}}
+2010-2015 & University of Illinois at Urbana-Champaign\\
+& PhD, Statistics \hspace{2pc} Advisor: Professor Yuguo Chen\\
+& Dissertation Title: Statistical Models and Inference for Dynamic Networks \\
+2008-2010 & University of Arkansas  \\
+&MS, Statistics \\
+2002-2006 & Harding University, Searcy, AR  \\
+& BA, Education
+\end{tabular}
+
+\vspace{1pc}
+\section{Research interests}
+\vspace{-1pc}
+\begin{multicols}{3}
+\begin{description}
+%\item Statistical modeling of \newline network data
+\item Social network analysis
+\item Clustering
+\item Bayesian methodology
+\item Statistical computing
+\item Monte Carlo methodology
+\item Data visualization
+%\item Machine learning
+\item Applied scientific problems
+\end{description}
+\end{multicols}
+
+
+\vspace{0.5pc}
+\section{Positions}
+\begin{tabular}{lll}
+	2015-Present & University of Iowa & Iowa City, IA \\
+				 & Assistant Professor, Department of Biostatistics & \\
+	2020-Present & University of Iowa & Iowa City, IA \\
+				 & Faculty Affiliate at the UI Public Policy Center &\\
+\end{tabular}
+
+\vspace{0.5pc}
+\section{Publications}
+\bibliography{Sewell-bib}
+
+
+\section{Awards}
+\begin{tabular}{r|p{16cm}}
+2019 & International Symposium on Network Enabled Health Informatics, Biomedicine and Bioinformatics Best Paper Award \\% Update APR
+2017 & Junior Faculty Research Opportunity Award, College of Public Health, University of Iowa \\
+2015 & New Faculty Research Award, College of Public Health, University of Iowa \\
+2015 & University of Illinois nomination for CGS/ProQuest Distinguished Dissertation Award (limit 1 nomination per university) \\
+2014 & Patrick J. Fett award for the best paper on the scientific study of Congress and the presidency \\
+2014 & Finalist for the Norton Prize for Outstanding Doctoral Thesis in Statistics \\
+2014 & University of Illinois Graduate College Travel Award \\
+2007 & Outstanding Calculus Award, Harding University 
+\end{tabular}
+
+\vspace{1pc}
+\section{Software}
+\begin{description}
+\item Author of R package \verb!dnc!, \verb!STAR!, \verb!curveRep!, \verb!LSMNP!, \verb!LSEC!
+\item GPAQ calibration web application 
+\item University of Iowa COVID-19 Nonpharmaceutical Intervention Evaluation Web Application
+\end{description}
+
+\section{Teaching Experience}
+\begin{tabular}{r|lc}
+\multicolumn{3}{l}{\large--\textsc{Instructor}--\normalsize}\\
+\multicolumn{1}{c}{}&&\pbox{4cm}{\hspace{1pc}\textsl{\textsc{Terms }}\\ \textsl{\textsc{Instructed}}}  \\ 
+University of Iowa & BIOS 5710: Biostatistical Methods I & 2 \\
+& BIOS 5720: Biostatistical Methods II & 3 \\
+& BIOS 6810: Bayesian Methods and Design & 3 \\
+& BIOS 7600: Statistical Analysis of Network Data & 1 \\
+University of Illinois &STAT 200: Statistical Analysis & 1 \\
+University of Arkansas & STAT 2303: Principles of Statistics & 1 \\
+ &MATH 2043: Survey of Calculus & 1\\
+& MATH 1203: College Algebra & 2 \\
+\multicolumn{3}{l}{}\\
+\multicolumn{3}{l}{\large--\textsc{Lon-Capa Programmer}--\normalsize}\\
+University of Illinois &Stat 100: Statistics &\\
+\multicolumn{3}{l}{}\\
+\multicolumn{3}{l}{\large--\textsc{Tutor}--\normalsize}\\
+Arkansas State University, Searcy & Career Pathways &\\
+Harding University &Academic Resource Center &
+\end{tabular}
+
+\vspace{1pc}
+\section{Advising}
+\begin{tabular}{r|ll}
+%\multicolumn{1}{c}{}&\textsl{\textsc{Department}}& \textsl{\textsc{Course Title}} \\ 
+PhD Advisor & Elliot Burghardt & Biostatistics \\
+Committee member  & Brandon Butcher & Biostatistics \\
+& Seungwon Kim & Geographical and Sustainability Sciences \\
+&Kyle Peterson & Interdisciplinary Graduate Program in Informatics \\
+& Adriana Maldonado & Community and Behavioral Health \\
+& Michael Seerdorff & Biostatistics \\
+ & Christine Kava & Community and Behavioral Health 
+\end{tabular}
+
+\vspace{1pc}
+\section{Financial Support}
+\large--\textsc{Active}--\normalsize \\ \vspace{-1.5pc}
+\begin{description}
+\setlength\itemsep{0pc}
+\item (PI) Statistical and Agent-based Modeling of Complex Microbial Systems:  A Means for Understanding Enteric Disease Transmission Among Children in Urban Neighborhoods of Kenya (Recently Awarded by NIH/Fogarty International Center, \# not yet assigned)
+\item Modeling Infectious Diseases in Healthcare research Projects to Improve Prevention Research and Healthcare Delivery (Recently Awarded by CDC, \# not yet assigned)
+\item Connected Cancer Care: EHR Communication Networks in Virtual Cancer Care Teams (1 R21 HS026075-01A1)
+\item Care Coordination Networks (Public Policy Center Summer Scholars Project)
+\item A Pharmacist Intervention for Monitoring and Treating Hypertension Using Bidirectional Texting (1 R61 HL144880-01A1)
+\item University of Iowa Prevention Research Center for Rural Health (5 U48 DP005021-05; 6 U48 DP006389-02)
+\item Contact Network Transmission Modeling of Healthcare Associated Infections (5 U01 CK000531-02)
+\item Statistical Disease Modeling and Clinimetrics to Prepare for Preventive Trials in Huntington Disease (5 R01 NS103475-02)
+\item Preparing for Preventive Clinical Trials in Huntington's Disease (1 R01 NS105509-01)
+\item Market to Mouth Infant Food Contamination Study: A Collaboration between the Safe Start Study and IFPRI (2018X134.UOI)
+\item Iowa Summer Institute for Research Education in Biostatistics (1 R25 HL147231-01)
+\end{description}
+\large--\textsc{Completed}--\normalsize \\ \vspace{-1.5pc}
+\begin{description}
+\setlength\itemsep{0pc}
+\item New Faculty Research Award
+\item Junior Faculty Research Opportunity Award
+\item e-Health (82154300)
+\end{description}
+
+\section{Presentations}
+\vspace{-1pc}
+\begin{longtable}{r|p{15cm}}
+\multicolumn{2}{l}{\large--\textsc{Invited Talks}--\normalsize}\\
+2021 & ``Model-based edge clustering,'' at the Summer Session of the Working Group on Model-Based Clustering, Athens, Greece \\
+%2020 & ``Model-based edge clustering,'' at Department of Statistics, University of Iowa \\ %Update APR
+2020 & ``Facing the Facts: The Role of Face Coverings in Containing COVID-19'' College of Public Health webinar on face coverings \\
+2020 & ``Understanding, Predicting and Planning for Resilience- Epidemiologic Modeling,'' Office of the Vice President for Research Webinar on COVID-19 \\ 
+2020 & ``Mining Social Network Data - EDA \& Visualization ,'' ASA Statistical Learning and Data Science Section webinar series ``Introductory Overview Lectures in Data Science'' \\ %Update APR
+2019 & ``Model-based edge clustering,'' at Shambaugh Conference on International Relations and Network Analysis, University of Iowa \\ %Update APR
+2019 & ``Multilinear tests of association between two networks,'' at Classification and Data Analysis Group Meeting, Cassino, Italy \\ %Update APR
+2019 & ``An introduction to the statistical analysis of network data,'' at Sapienza, Universit\'a di Roma \\
+2019 & ``Network analysis: Applications and extant challenges,'' at the University of Iowa, Department of Applied Mathematical and Computational Sciences \\
+2018 & ``Heterogeneous susceptibilities in network influence models,'' at CMStatistics, Pisa, Italy\\
+2018 & ``Estimating the attributable disease burden and effects of inter-hospital patient sharing on {\it Clostridium difficile} infections in California,'' at the International Conference on Emerging Infectious Diseases, Atlanta, GA\\
+2017 & ``Simultaneous and temporal autoregressive network models,'' at Iowa State University, Department of Statistics \\
+2017 & ``Statistical analysis of networks in bioinformatics: Getting the right data,'' Informatics Showcase, University of Iowa\\
+2017 & ``Measuring electronic communication networks in virtual healthcare teams using electronic health records cccess-log data,'' with Zhu X, Tu SP, Hall L, Mishra V, Yao A, Dow A, and Banas C., at {\it INSNA Sunbelt Conference}, Beijing, China \\
+2017 & ``The effects of analyzing subsets of hospital patient transfer networks'' at the University of Iowa, Department of Geographical and Sustainability Sciences \\
+2016 & ``Clustering dynamic and evolving data'' at the University of Iowa, Department of Biostatistics \\
+2016 & ``Clustering dynamic and evolving data'' at the University of Iowa, Department of Political Science \\
+2016 &"Simultaneous and temporal autoregressive network models," at {\it INSNA Sunbelt Conference}, Newport Beach, CA \\
+2016 &``Social network analysis,'' at the Center for Comprehensive Access And Delivery Research And Evaluation \\
+2015 & ``Latent space models for dynamic networks," at the University of Iowa, Department of Statistics and Actuarial Science \\
+2015 &``Latent space models for dynamic networks," at the University of Iowa, Department of Computer Science \\
+2015 & ``Analysis of the formation of the structure of social networks," at {\it $17^{th}$ Meeting of New Researchers in Statistics and Probability}, Seattle, WA \\
+2015 & ``Latent space models for dynamic networks," at Texas A\&M \\
+2015 & ``Latent space models for dynamic networks," at Duke University \\
+2015 & ``Latent space models for dynamic networks," at the University of Michigan \\
+2015 & ``Latent space models for dynamic networks," at the University of Missouri \\
+2015 & ``Latent space models for dynamic networks," at Notre Dame University \\
+2015 & ``Latent space models for dynamic networks," at the University of Alberta \\
+2015 & ``Latent space models for dynamic networks," at the University of Colorado, Denver \\
+2015 & ``Latent space models for dynamic networks," at Portland State University \\
+2015 & ``Latent space models for dynamic networks," at University of Iowa, Department of Biostatistics \\
+2015 & ``Latent space models for dynamic networks," at Binghamton University \\
+2015 & ``Latent space models for dynamic networks," at Miami University \\
+2014 & ``Legislative style," with W. Bernhardt and T. Sulkin, {\it Annual Meeting of the Midwest Political Science Association}, Chicago, IL \\
+2014 & ``Latent space models for dynamic networks," {\it Midwest Statistics Research Colloquium}, Chicago, IL \\
+\multicolumn{2}{l}{}\\
+\multicolumn{2}{l}{\large--\textsc{Invited Posters}--\normalsize}\\
+2020 & ``Bayesian Hierarchical Clustering,'' at {\it Joint Statistical Meetings}, Philadelphia, PA\\
+2020 & ``Estimating the Impact of County Boundaries on State-wide Patient-sharing Network Models,'' at {\it Decennial 2020: 6th International Conference on Healthcare Associated Infections}, Atlanta, GA\\
+2020 & ``Exploring the Potential Limitations of Using Medicare Data to Study the Spread of Infections from Hospital Transfers,'' at {\it Decennial 2020: 6th International Conference on Healthcare Associated Infections}, Atlanta, GA\\
+\multicolumn{2}{l}{}\\
+\multicolumn{2}{l}{\large--\textsc{Contributed Talks}--\normalsize}\\
+2016 & "Simultaneous and temporal autoregressive network models," at {\it Joint Statistical Meetings}, Chicago, IL \\
+2015 & ``Analysis of the formation of the structure of social networks," at {\it Joint Statistical Meetings}, Seattle, WA \\
+2014 & ``Detecting influence in dynamic networks," {\it Joint Statistical Meetings}, Boston, MA \\
+2014 & ``Community detection for dynamic networks," {\it Bohrer Workshop in Statistics}, Department of Statistics, University of Illinois at Urbana-Champaign \\
+2013 & ``Latent space models for dynamic networks," {\it Bohrer Workshop in Statistics}, Department of Statistics, University of Illinois at Urbana-Champaign \\
+2011 & ``A parameter estimation method for single molecule fluorescence lifetime data," {\it Bohrer Workshop in Statistics}, Department of Statistics, University of Illinois at Urbana-Champaign\\
+\multicolumn{2}{l}{}\\
+\multicolumn{2}{l}{\large--\textsc{Workshops}--\normalsize}\\
+2020 & Webinar on ``Introductory Overview Lectures in Social Networks'' through the American Statistical Association Web-Based Lectures \\
+2019 & Short course ``Introduction to statistical analysis of network data'' at Sapienza Universit{\' a} di Roma \\
+2019 &Short course ``Networks in R'' at {\it University of Iowa Data Science Institute} (Summer) \\
+2017 &Short course ``Networks in R'' at {\it University of Iowa Data Science Institute} (Summer) \\
+2017 & Short course ``Introduction to R'' at {\it University of Iowa Data Science Institute} (Winter) \\
+2016 & Workshop on "Introduction to R," at {\it Informatics Showcase}, University of Iowa
+\end{longtable}
+
+\section{Refereed Journals}
+\begin{description}
+\setlength\itemsep{0pc}
+\item {\it Annals of Applied Statistics}
+\item {\it Bayesian Statistics}
+\item {\it Biometrics}
+\item {\it BMJ Open} %($\times$3)
+\item {\it Computational Statistics and Data Analysis}
+\item {\it Expert Systems with Applications}
+\item {\it Extremes}
+\item {\it Journal of Allergy and Clinical Immunology}
+\item {\it Journal of the American Statistical Association T\&M}
+\item {\it Journal of the American Statistical Association A\&CS}
+\item {\it Journal of Computational and Graphical Statistics}
+\item {\it Journal of Econometrics}
+\item {\it Journal of Educational and Behavioral Statistics}
+\item {\it Journal of Multivariate Analysis}
+\item {\it Journal of the Royal Statistical Society, Series A}
+\item {\it Journal of the Royal Statistical Society, Series B}
+\item {\it Journal of the Royal Statistical Society, Series C}
+\item {\it Multivariate Behavioral Research}
+\item {\it Network Science}
+\item National Science Foundation
+\item {\it PLOS One}
+\item Polish National Science Centre
+\item {\it Psychometrika}
+\item {\it Social Networks}
+\item {\it Statistics and Computing}
+\item {\it Statistics and Its Interface}
+\end{description}
+
+\section{Professional Experience}
+\begin{description}
+\item \textit{Consultant}: Illinois Consulting Office, University of Illinois, 2012-2015
+\item \textit{Actuarial Examination}: Successful passing score on SOA/CAS/CIA Exam P/1 (Probability)
+\end{description}
+
+\section{Professional Activities}
+\begin{tabular}{r|p{15cm}}
+2018-present & Biostatistics Colloquium Committee (Chair) \\
+2018-present & Chapter representative of the Iowa Chapter of the American Statistical Association \\
+2016-2018 & Faculty mentor for the Iowa Summer Institute in Biostatistics at the University of Iowa \\
+2016-2017 & Member of faculty search committee for the Department of Biostatistics at the University of Iowa \\
+2015-2018 & Member of the advanced statistical computing course exploratory committee for the Department of Biostatistics at the University of Iowa \\
+2015-present & Member of M.S. Exam Committee for the Department of Biostatistics at the University of Iowa \\
+2015-present & Member of the computing committee for the Department of Biostatistics at the University of Iowa \\
+2015-2018 & Member of graduate admissions committee for the Department of Biostatistics at the University of Iowa \\
+2015-present & Member of the awards committee for the College of Public Health at the University of Iowa \\
+2015-2016 & Member of student paper award committee of the ASA nonparametric statistics section \\
+2016 & College of Public Health representative and member of the Hancher-Finkbine dinner medallion selection committee at the University of Iowa
+\end{tabular}
+
+\vspace{1pc}
+\section{Professional Associations}
+\begin{description}
+\setlength\itemsep{0pc}
+\item International Network for Social Network Analysis
+\item American Statistical Association
+\item Institute of Mathematical Statistics
+\item International Society for Bayesian Analysis
+\end{description}
+
+
+
+\end{document} 

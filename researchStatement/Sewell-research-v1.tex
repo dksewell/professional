@@ -1,0 +1,121 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb,amsmath,natbib,graphicx,subcaption,changepage,relsize,amsthm,enumerate,bbm,placeins,bibentry,fixfoot}
+\usepackage[symbol]{footmisc}
+\usepackage{tikz,url}
+\usepackage[margin=1in]{geometry}
+
+%\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}%[section]
+%\newtheorem{proposition}[theorem]{Proposition}%[section]
+%\newtheorem{corollary}[theorem]{Corollary}%[section]
+\newtheorem{result}{Result} 
+\theoremstyle{definition}
+\newtheorem*{definition}{Definition}
+
+\newcommand{\logit}{\mbox{logit}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\ones}{\mathbbm{1}}
+\newcommand{\indic}[1]{\boldsymbol{1}_{\{ #1 \}}}
+\newcommand{\mvec}{\mbox{vec}}
+\newcommand{\cov}{\mbox{Cov}}
+\newcommand{\cor}{\mbox{Cor}}
+\newcommand{\var}{\mbox{Var}}
+\newcommand{\eqdist}{\overset{{\cal D}}{=}}
+\newcommand{\convD}{\overset{{\cal D}}{\rightarrow}}
+\newcommand{\convP}{\overset{{\cal P}}{\rightarrow}}
+\newcommand{\const}{\mbox{const}}
+\newcommand{\iid}{\overset{iid}{\sim}}
+\newcommand{\diag}{\mbox{{\bf diag}}}
+\newcommand{\Diag}{\mbox{Diag}}
+\newcommand{\bDiag}{\mbox{bDiag}}
+
+\def\*#1{\boldsymbol{#1}}
+\def\~#1{{\cal #1}}
+\def\u#1{\underline{#1}}
+
+\newcommand{\deriv}[1]{\noindent {\it Derivation:} #1 $\hfill\square$}
+
+\DeclareFixedFootnote{\covid}{Declined due to COVID-19 concerns}
+
+
+\begin{document}
+\nocite{*}
+\begin{center}
+{\Large\bf Research Statement}
+
+\vspace{0.5in}
+
+Daniel K. Sewell
+%\footnote{Daniel K. Sewell is Assistant Professor, Department of Biostatistics, University of Iowa, Iowa City, IA 52242 (E-mail: {\it daniel-sewell@uiowa.edu}).}
+\end{center}
+
+My primary research focus is the analysis of network data.  Network analysis can most simply be thought of as the study of how units interact or are connected.  Network data frequently arise in multitudinous areas of research, such as studies involving social or professional relationships, team communication, infectious disease, and flow through physical networks (e.g., the interconnectedness of rooms in a hospital).  Network data, however, are notoriously difficult to analyze, and standard statistical techniques are rendered ineffective.% or misleading.  
+
+While I have collaborated on several interdisciplinary teams on a wide variety of successfully funded projects (1 R61 HL144880-01A1; 2018X134.UOI; 1 R01 NS105509-01; R01
+NS103475-02; 6 U48 DP006389-02; 5 U48 DP005021-05; 6 U48 DP006389-02; UIHC 82154300; 1 R25 HL147231-01), my research agenda has been centered on developing novel methodology for network analysis, taking into account computational cost and data complexities. Two other main research areas have emerged over the course of my time at the University of Iowa: clustering and infectious disease (ID) modeling.  Clustering is the act of finding naturally occurring group structure in data and appears ubiquitously across scientific fields.  ID modeling is critical to forecasting outbreaks, designing surveillance and intervention strategies, and for understanding disease characteristics. As described below, these two areas overlap heavily with network analysis and hence are natural secondary focuses of my research agenda. 
+
+
+
+\vspace{0.5pc}
+\noindent{\bf Network Methodology}\\
+Network data inherently involve a high degree of interconnectedness and thus necessitate sophisticated statistical tools that can adequately capture the complex dependencies seen in such data. A focus of my research has been to develop analytical tools for network data which are computationally efficient and accurately account for these dependencies in order to make accurate inference.  
+
+A major class of network models are the latent space models which account for the dependencies in the data through non-linear interactions of latent features of the actors of the network. While I have made contributions to the field of network analysis by developing tests of association \citep{sewell2019multilinear}, study designs \citep{sewell2019analysis} and observation-driven models \cite{sewell2018simultaneous}, much of my research has been focused on this class of network models. Networks which are observed over time present additional significant difficulties in analysis, as temporal dependencies amplify challenges of studying an already complex system. I have made contributions to this area for dynamic/temporal networks \cite{sewell2015latent,sewell2017latent}.  In addition, network data is often augmented with additional information conveying the strengths, or weights, of each edge (i.e., relation) in the network.  I have made contributions to analyzing weighted networks via latent space approaches \citep{sewell2015analysis,sewell2016weighted}. Lastly, cognitive social structures (CSS) are an important sociological tool used to investigate individuals' perceptions of their own social structure.  I have developed a latent space approach that yields rich insights into this type of data \citep{sewell2019css}.
+
+A different set of tools is needed when, rather than being the primary outcome being studied, the network is acting to allow experimental units to influence one another's primary variable of interest.  Arguably the most commonly used tool for this context is the network autocorrelation model (NAM).  This model allows one to estimate the network effect in, for example, inter-healthcare facility spread of infections \citep{sewell2019estimating}.  This analytical tool, however, comes with computational challenges and has been shown in some contexts to show bias in estimation.  I have helped elucidate which estimators exhibit bias and/or large variance and in which contexts this happens \citep{li2020comparison}.  The NAM has the severe limitation that the entire network must be observed.  This is most often in practice not achievable or even impossible to collect.  I have worked around this issue by developing estimation for the NAM in this setting \citep{sewell2017network}.  Another limitation of the NAM is that it assumes all units in the network are equally susceptible to influence, although sociological theory indicates that this is not the case; I developed methodology overcoming this limitation which allows the susceptibilities to vary as a function of covariates \citep{sewell2017heterogeneity}.
+
+My network methodological research has been funded both internally at the University of Iowa (New Faculty Research Award; Junior Faculty Research Opportunity Award;Public Policy Center Summer Scholars Project) and externally through the NIH (1 R21 HS026075-01A1). Additionally, my research agenda has received recognition through the form of invited presentations (SIAM MDS\covid; Shambaugh Conference; ClaDAG; CMStatistics; INSNA Sunbelt; ASA SLDS webinar; multiple domestic and international universities).
+
+
+
+\vspace{0.5pc}
+\noindent{\bf Clustering Methodology}\\
+A problem which reappears in a plethora of disciplines is the need to find underlying subpopulations, or groups, within an observed set.  For example, towards the aim of personalized medicine it would be important to understand to which subpopulation a patient belongs and which treatment is most efficacious for that subgroup. Clustering is the set of analytic tools used when these groups are unknown and must be found from observed data. The challenges involved in clustering techniques are as diverse as the fields which employ them and the data which can be collected.  One particularly challenging scenario is multivariate longitudinal data, where the observational units have been observed for varying lengths of time.  My first contributions to clustering methodology addressed this problem in a computationally efficient manner \citep{sewell2016model,bernhard2017clustering}.
+
+Community detection, finding sets of actors in a network which tend to form natural groups, can be used to find compartments of hospitals which might be more likely to spread infections to each other, find groups of proteins with similar function, assist in multicasting information efficiently, and much more.  Community detection is the intersection of network analysis and clustering, and I have been able to make methodological contributions in this area for dynamic/longitudinal networks \citep{sewell2017latent} and edge exchangeable networks \citep{sewell2020model}.  In both cases I have utilized latent space approaches and have developed computationally efficient estimation algorithms for otherwise computationally prohibitive problems. 
+
+My research in this area has been recognized through invited presentations at JSM$^*$, and at the invitation-only Summer Session of the Working Group on Model-Based Clustering\footnote{The 2020 meeting has tentatively been rescheduled for 2021 due to COVID-19 concerns}, a meeting organized and attended by the world's foremost experts in clustering. 
+
+
+%\newpage
+\vspace{0.5pc}
+\noindent{\bf Infectious Disease Modeling}\\
+The foundation of accurate ID modeling is the network through which disease spreads. 
+Contact networks are the mechanism through which infectious diseases spread between individuals; patient sharing transmits diseases across healthcare facilities; travel flow networks show how novel diseases can move between geographical regions.  I have delved into research questions on infectious diseases within healthcare settings \citep{sewell2019estimating,pai20spatiotemporal,jang2020datadriven} and in low- to middle-income countries \citep{baker2018fecalfingerprints,medgyesi2018where,medgyesi2018landscape}, often leveraging my expertise on networks to answer the questions of interest.  
+
+Agent-based models (ABMs) provide a powerful tool to best understand the effects of intervention strategies or the relative importance of various transmission pathways. Accurate ABMs designed for ID contexts necessitate the use of high fidelity networks.  We collected RSSI data from healthcare workers in a dialysis unit wearing sensor devices.  I developed methods for inferring the exact location from the very noisy RSSI data to construct a contact network.  An ABM was then built on this network in order to evaluate the effect of architectural changes on disease transmission \citep{jang2019evaluating}.  In the current COVID-19 pandemic, I developed a novel computational approach to evaluate the mean epicurve for a SEIR model in order to evaluate nonpharmaceutical interventions, and then in yet to be published work applied this approach to evaluate the effect of face coverings on the pandemic's trajectory \citep{sewell2020simulationfree}.
+
+My methodological research in ID modeling has received external funding through the CDC (5 U01 CK000531-02; Recently Awarded by CDC) and the NIH (Recently Awarded by NIH), and applied ID research through IFPRI (2018X134.UOI) and internally at the University of Iowa (82154300). Additionally, my research in ID has been recognized through the form of invited presentations (ICEID'18; SHEA'20\footnote{Conference cancelled due to COVID-19.}).
+
+%
+%Accurate ID modeling has at its foundations networks through which diseases spread. 
+%
+%
+%I have taken this focus and delved into its intersection with infectious disease modeling, helping to lead research groups focused on hospital epidemiology and infectious disease in low- to middle-income countries. Networks are at the heart of how infectious disease spreads amongst individuals, healthcare facilities, and geographical regions, and over the course of several years I have been able to both apply and motivate my methodological developments.
+
+
+\vspace{0.5pc}
+\noindent{\bf Future Work}\\
+%My future research plan involves progressing all three of the research areas listed above.  Rather than considering these as three distinct areas, I anticipate that many or most research projects will lie in the intersection. 
+\indent \textit{Networks.} Edge-exchangeable networks is a topic that is relatively new and shows great potential to shape network analysis moving forward.  While I have begun work in this area in developing edge clustering methodology, I believe that the ideas behind edge-exchangeable networks hold great potential in two realms that I am working in: healthcare team communication through electronic medical record systems and contact networks in ID settings. Additionally, I am working on overcoming the bias frequently found in NAMs through data-dependent loss functions.
+
+\textit{Clustering.} Choosing the number of clusters is notoriously difficult in cluster analysis.  Regardless of the clustering method, this number must be determined either a priori or through a purely data driven approach.  Hierarchical clustering methods provide the opportunity to investigate many candidate partitions/clusters, thereby allowing scientists to use subject knowledge and interpretability to make a final selection of the number of clusters. I am currently working with a PhD student on a method motivated from theoretical properties of mixture models to perform Bayesian hierarchical clustering method.
+
+\textit{Infectious Disease.} I am currently funded through two external grants to develop advanced ID ABMs.  A large share of the work of these projects is the development of the statistical models powering the ABM. Some of these models fall under the realm of discrete time spatiotemporal models, which is closely related to my work on NAMs. I additionally plan on developing edge clustering models for weighted edges and dynamic networks in order to inform regional outbreak responses.
+
+
+%
+%\vspace{0.5pc}
+%\noindent{\bf Summary}\\
+
+
+
+
+
+\bibliographystyle{plain}
+\nobibliography{../CV/Sewell-bib}
+
+
+\end{document} 
