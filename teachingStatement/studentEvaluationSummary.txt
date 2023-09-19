@@ -88,18 +88,18 @@ Methods 1
 ### Engagement
 ###
 *Rapport/Safe Environment
-- And he is super nice person in all ways!
-- Dan da man did a great job designing this course
 - The instructor was enthusiastic and fun.
-- The instructor is extremely passionate and makes lectures very interesting. 
 - ...wanting to help in any way possible.
 - Definitely learned a lot from his class. Besides, he is super warm hearted and has a great sense of humor. Overall speaking, he is an academic role model that I look up to.
-- (PEER) Dr. Sewell is clearly enthusiastic about teaching, and interacts well with his students
 - He gives his time very freely to students and seems happy to be providing us with that additional instruction. 
+- And he is super nice person in all ways!
+- Dan da man did a great job designing this course
+- (PEER) Dr. Sewell is clearly enthusiastic about teaching, and interacts well with his students
 - Great Professor who gives engaging, well-prepared lectures, great examples and useful concepts are provided
 - Professor Sewell was a tremendous help during 1-1 meetings about homework and our projects.
 
 * Engendering passion
+- The instructor is extremely passionate and makes lectures very interesting. 
 - Dan was clearly enthusiastic about teaching this course -- his appreciation for the subject is obvious.
 - Dr. Sewell was clearly passionate about the material and wanting to help in any way possible.
 - The instructor is always willing to help, excited about teaching and inspiring interest in biostatistics, and is very passionate about the material. 
@@ -137,7 +137,7 @@ Methods 1
 ###
 ### Big picture
 ###
-
+- I always had a clear idea of what the big picture was and where we were headed during lecture even if I didn't grasp the details during the first pass
 
 
 
