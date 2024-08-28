@@ -1,0 +1,2 @@
+For the fall of 2018, I put together a new PhD level course for the Department of Biostatistics on the statistical analysis of network data.  This required a great degree of thought and planning, and I spent much time determining the content of the course, organizing it in a coherent sequence of topics, and constructing a set of notes and labs for the students. On evaluations, one student wrote, "It is the best course I have taken in Iowa so far."  The course content can be found at
+https://myweb.uiowa.edu/dksewell/Teaching/SAND/
