@@ -1,0 +1,127 @@
+x --- Community health
+	1] Afifi et al. “The ‘dirty work’ of last responders: Occupational stigma risk and protective factors”. In:
+	Journal of Occupational and Environmental 21.3 (2024), pp. 145–151. doi: 10.1080/15459624.2024.
+	2302481.
+	[2] Barbara Baquero et al. “Effectiveness of implementing evidence-based approaches to promote physical
+	activity in a Midwestern micropolitan area using a quasi-experimental hybrid type I study design”. In:
+	BMC Public Health 24.1 (2024), p. 1082. issn: 1471-2458. doi: 10.1186/s12889- 024- 18523- 9. url:
+	https://doi.org/10.1186/s12889-024-18523-9.
+	[6] Maldonado et al. “The association between state characteristics and Latinos’ treated hypertension in
+	established and new Latino destination states: A multilevel analysis”. In: Family & Community Health
+	47.2 (2024), pp. 151–166. doi: 10.1097/FCH.0000000000000393.
+	[11] RA Afifi et al. “Ignored and distressed: A cross-sectional study of the impact of COVID-19 on last
+	responders”. In: BMC Public Health 23 (2023), p. 1637.
+	[14] Anna B. Correa et al. “Students supporting students: evaluating the impact of the COVID-19 pandemic
+	on resident assistant mental health”. In: Journal of American College Health (2023), pp. 1–11. doi:
+	10.1080/07448481.2023.2201867.
+	[15] Adriana Maldonado et al. “Identifying the Social Determinants of Treated Hypertension in New and
+	Established Latino Destination States”. In: Journal of Immigrant and Minority Health 25 (2023), pp. 50–
+	61.
+	
+	
+	
+--- Infectious disease
+	--- Interdisciplinary
+		--- Enteric infections
+		x [12] Kelly K. Baker et al. “Protocol for the PATHOME study: a cohort study on urban societal development
+		and the ecology of enteric disease transmission among infants, domestic animals and the environment”.
+		eng. In: BMJ open 13 (11 Nov. 2023), e076067.
+		x [3] Phylis J. Busienei et al. “Development of a protocol for using geo-trackers to identify zoonotic enteric
+		pathogen transmission pathways in a pilot study in Kenya”. In: CABI One Health 3.1 (2024). doi:
+		10.1079/cabionehealth.2024.0011.
+		x [4] Fanta D. Gutema, Cumming, et al. “Enterococcus contamination of infant foods and implications for exposure to
+		food-borne pathogens in peri-urban neighborhoods of Kisumu, Kenya”. In: Epidemiology and Infection
+		152 (2024), e23. doi: 10.1017/S0950268824000062.
+		x [18] Kelly K. Baker et al. “Environmental and behavioral exposure pathways associated with diarrhea and
+		enteric pathogen detection in five month old, peri-urban Kenyan infants: a cross-sectional study”. In:
+		BMJ Open 12 (2022), e059878.
+		x [21] Vivian Hoffmann et al. “Milk Product Safety and Household Food Hygiene Influence Bacterial Contam-
+		ination of Infant Food in Peri-Urban Kenya”. In: Frontiers in Public Health 9 (2022), p. 772892. issn:
+		2296-2565. doi: 10.3389/fpubh.2021.772892. url: https://www.frontiersin.org/article/10.
+		3389/fpubh.2021.772892.
+		--- Healthcare associated infections
+		x [5] Haomin Li et al. “Comparing multiple infection control measures in a nursing home setting: a simulation
+		study”. In: Infection Control 38; Hospital Epidemiology (2024), pp. 1–8. doi: 10.1017/ice.2024.43.
+		x [7] Aaron C. Miller et al. “Hospitalizations among family members increase the risk of MRSA infection in a
+		household”. In: Infection Control 38; Hospital Epidemiology (2024), pp. 1–7. doi: 10.1017/ice.2024.106.
+		x [16] Aaron C Miller et al. “Comparison of different antibiotics and the risk for community-associated Clostrid-
+		ioides difficile Infection: A case–control study”. In: Open Forum Infectious Diseases 10.8 (Aug. 2023),
+		ofad413. issn: 2328-8957. doi: 10.1093/ofid/ofad413. eprint: https://academic.oup.com/ofid/
+		article-pdf/10/8/ofad413/51234077/ofad413.pdf. url: https://doi.org/10.1093/ofid/ofad413.
+		x [23] Aaron C. Miller et al. “Risk for asymptomatic household transmission of Clostridioides difficile infection
+		associated with recently hospitalized family members”. eng. In: Emerging Infectious Diseases 28.35447064
+		(May 2022), pp. 932–939. issn: 1080-6040. doi: 10.3201/eid2805.212023. url: https://www.ncbi.
+		nlm.nih.gov/pmc/articles/PMC9045444/.
+		x [27] D. M. Hasibul Hasan et al. “Modeling and Evaluation of Clustering Patient Care into Bubbles”. In: 2021
+		IEEE 9th International Conference on Healthcare Informatics (ICHI). 2021, pp. 73–82. doi: 10.1109/
+		ICHI52183.2021.00023.
+	--- Methodological
+	x [24] Daniel K. Sewell. “Leveraging network structure to improve pooled testing efficiency”. In: Journal of the
+	Royal Statistical Society: Series C 71.5 (2022), pp. 1648–1662.
+	x [25] Daniel K. Sewell. “Network-informed constrained divisive pooled testing assignments”. In: Frontiers in
+	Big Data 5 (2022), p. 893760.
+	x [28] S. Justice, D.K. Sewell, and A.C. Miller. “Inferring patient transfer networks between healthcare facilities”. Health Serv Outcomes Res Method (2021).
+
+	
+
+--- Network analysis
+	--- Methodological
+	# [13] Yuguo Chen et al. “Editorial: Advances in Network Data Science”. In: Journal of Data Science 21.3
+	(2023), pp. 443–445. issn: 1680-743X. doi: 10.6339/23-JDS213EDI.
+	x [29] Haomin Li and Daniel K. Sewell. “A comparison of point estimators for the network autocorrelation
+	model based on observed social networks”. In: Social Networks 66 (2021), pp. 202–210.
+	x [30] Daniel K. Sewell. “Model-based edge clustering”. In: Journal of Computational and Graphical Statistics
+	30.2 (2021), pp. 390–405.
+	--- Interdisciplinary
+	x [10] Shin-Ping Tu et al. “Patient care in complex Sociotechnological ecosystems and learning health systems”.
+	In: Learning Health Systems (2024), e10427. doi: https://doi.org/10.1002/lrh2.10427.
+	x [20] Tessa Heeren et al. “Applying network analysis to assess the development and sustainability of multi-
+	sector coalitions”. In: PLOS ONE 17.10 (Oct. 2022), pp. 1–15. doi: 10.1371/journal.pone.0276114.
+	url: https://doi.org/10.1371/journal.pone.0276114.
+	x [22] Samuel Justice et al. “Evidence of within-facility patient-patient Clostridiodes difficile infection spread across diverse settings”. In: Epidemiology and Infection (2022), pp. 1–23. doi: 10.1017/S0950268822001893.
+		
+	
+
+--- Clustering
+	x [8] Hanh T. D. Pham and Daniel K. Sewell. “Automated detection of edge clusters via an overfitted mixture
+	prior”. In: Network Science 12.1 (2024), pp. 88–106. doi: 10.1017/nws.2023.22.
+	x [19] Elliot Burghardt, Daniel Sewell, and Joseph Cavanaugh. “Agglomerative and divisive hierarchical Bayesian
+	clustering”. In: Computational Statistics & Data Analysis 176 (2022), p. 107566. issn: 0167-9473.
+
+
+--- Bayesian
+	x [9] D.K. Sewell. “Posterior shrinkage towards linear subspaces”. In: Bayesian Analysis 1.1 (2024), pp. 1–24.
+
+
+
+--- ???	
+	[17] Sean M. Mullan et al. “Predicting use of a gait-stabilizing device using a Wii Balance Board”. In: PLOS
+	ONE 18.10 (Oct. 2023), pp. 1–12. doi: 10.1371/journal.pone.0292548. url: https://doi.org/10.
+	1371/journal.pone.0292548.
+	[26] Denise A. Devotta et al. “Watershed Alnus cover alters N:P stoichiometry and intensifies P limitation in
+	subarctic streams”. In: Biogeochemistry 153 (2021), pp. 155–176.
+	[31] Ying Zhang et al. “Mild cognitive impairment as an early landmark in Huntington Disease”. In: Frontiers
+	in Neurology 12 (2021), p. 678652
+
+
+--- Evidence
+	x 1. Funding
+		2020-2021	2021-2022	2022-2023	2023-2024	2024-2025*
+		82%			48%			65%			70%			81%
+		- PI on 
+			- Statistical and Agent-based Modeling of Complex Microbial Systems: A Means for Understanding Enteric Disease Transmission Among Children in Urban Neighborhoods of Kenya (1 R01 TW011795-01) 
+			and 
+			- Connected Cancer Care: EHR Communication Networks in Virtual Cancer Care Teams (1 R21 HS026075-01A1)
+		
+	x 2. Editorial in JDS on Advances in Network Data Science
+	x 3. Invited seminars:
+		2024 & ``Homophily-adjusted social influence estimation," at {\it Joint Statistical Meetings}, Portland, OR \\
+		2023 & ``Divisive Hierarchical Bayesian Clustering on Longitudinal Data: Identifying Parkinson's Disease Subtypes," at {\it Joint Statistical Meetings}, Toronto, CA \\
+		2023 & ``Agglomerative and Divisive Hierarchical Bayesian Clustering,'' at the Summer Session of the Working Group on Model-Based Clustering, Pittsburgh, PA \\
+		2023 & ``Comparing multiple infection control 
+		measures in a nursing home setting: 
+		A simulation study,'' for the CDC MInD Healthcare Network, Virtual \\
+		2022 & ``The community-hospital feedback loop,'' at the MInD Grantee Meeting 2022, Atlanta, GA \\
+		2022 & ``Automated detection of edge clusters,'' at Social Networks and Beyond, New York, NY \\
+		2021 & ``Model-based edge clustering,'' at the Summer Session of the Working Group on Model-Based Clustering, Athens, Greece \\
+	4. RA support: 15 RA-years since Fall 2021

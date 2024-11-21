@@ -1,0 +1,352 @@
+* = peer evaluation
+
+----- Big picture
+
+	x The instructor emphasized the most important notions and made sure we never lose sight of the "big picture"
+
+	x I thought Dan did a really nice job with always bringing the conversation back to a core question/technique. 
+
+	The main ideas were stressed frequently and I felt like I had a good grasp by the end of what he wanted me to get out of the course. 
+
+	Taking the time to do quick reviews at the end/beginning of a network type. This was helpful to keep the big picture more clear and solidify pros/cons and usage scenarios for different network fits.
+
+	x I really loved the discussions Dan had during the classes which helped us build an intuition about the models before we got into the math. 
+
+	x Learning concepts in depth.
+
+	appreciated the instructors efforts to give recaps of material to
+	help put the concepts in perspective.
+
+	Class lectures were engaging and well organized. Professor always started class by giving an overview of where we have been which was super helpful in conceptualizing how all of the material fits together.
+
+	Taking time to look at the "big-picture" or main idea of a concept. [most useful for your learning]
+
+----- Environment
+	---Questions
+	*Students feel comfortable asking questions which made the presentation more of a discussion, which is a really good thing
+	*Great job fielding (and fostering!) questions. Very interactive class, which is wonderful to see.
+	*It was obvious that students feel comfortable asking questions
+	
+	x The instructor was always very open to students asking questions and patient when providing answers.
+
+	x Dan's willingness to answer questions and make sure students understand concepts is excellent. He did an awesome job answering questions.
+
+	x I also thought that the course was structured and conducted in such a way that welcomed questions and comments on course material which fostered a positive and productive learning environment.
+	
+	x The professors willingness to re-explain concepts without any hesitation.
+
+	I like that he encouraged participation and conversation among the class.
+
+	The professor did a good job of engaging students despite zoom.
+
+	I appreciated the willingness to find time to provide help and answer questions about the course material.
+
+	Dan's openness to questions [most useful for your learning]; he was generous with his office hours, and he made the additional effort to take questions from the Zoom chat on occasions when students had to participate via Zoom.
+
+	I appreciated that you always wanted us to ask questions
+
+	--- Care
+	x I appreciate all your time and effort in the course and willingness to provide help outside of the class. It is clear you care about your students.
+	
+	I also felt very comfortable asking questions in class and felt like he really cared about our learning and wanted us to understand everything.
+
+	x I really appreciated how helpful Dan was during office hours and in being willing to schedule time outside of office hours when necessary.
+
+	I would remind the instructor that I appreciate his commitment to our class during this challenging semester. [F2020]
+
+	I appreciate that he takes time to make sure everyone is following what he says during lectures.
+
+
+	--- Cooperative
+	I want you to know that I thoroughly enjoyed this class, the topics and yourself. I enjoyed the personality that you brought to this class and how you kept a welcoming classroom for us incoming students. It was hard at first when I got here to make new friends and I attained one from this class because of your strong suggestions to work on the HW's with someone else. If I were lucky enough to get you as a research advisor I would gladly accept in a heart beat as I know you would push me academically to the place where I want to be. I hope to take another one of your classes in the future!
+
+	--- Safe
+	I felt comfortable asking questions and getting help as needed.
+	
+	I really enjoyed this course, and I actually look forward to it every day!
+
+	x Dan was extremely patient, helpful and co-operative. Thanks for being more than an instructor!
+
+	I also loved how he made accommodations for students who were not necessarily coming from a stat background unlike a few stats courses I have taken previously.
+
+	x I appreciate how Dan is understanding. Dan was the only instructor I reached out to about my grandfather's passing. Not just because I knew Dan would empathize, but also I felt like I could approach Dan. Dan allowed me to take the day and grieve; it was a relief to know that I could have at least one day to process everything without the stress of an assignment. I highly respect Dan, and fear him a little, which is why I feel that I can approach him about topics like family and social constructs. Overall, Dan is a great professor who is happy to hop on zoom for his students, even if he does not like (border-line hates) Zoom.
+
+	x The professor is very approachable both in and outside class and went above and beyond to explain concepts/help with problems.
+
+
+	--- Motivation
+	I loved your passion and philosophical perspective on the Bayesian analyses, and it rubs off on all of us
+	
+	
+	
+	x I had a great time and I think very highly of professor Sewell! Certainly is one of those professors you have a love/hate relationship with because they push you to learn which can be very uncomfortable at times... but that is what we are here for! I also appreciate his humor and willingness to respond to questions.
+	Encouraging students to work together on homework and studying. [most useful for your learning]
+
+----- Challenge
+
+	x (D) I had a great time and I think very highly of professor Sewell! Certainly is one of those professors you have a love/hate relationship with because they push you to learn which can be very uncomfortable at times... but that is what we are here for! I also appreciate his humor and willingness to respond to questions.
+
+	I found this class to be extremely challenging at times, but I also felt that it elevated my skills and abilities.
+
+	I found my way of thinking shifting and changing and has reflected in other work that I do (too many times I found myself thinking "Aww, I can do this easily with a matrix." which is not something I would have said before).
+
+	I really liked this class and definitely challenged me to be a much better statistician.
+
+	Material was challenging, and what you get from the course scales with how much effort you put in.
+
+	I appreciated the depth and completeness of the topics presented. The proofs in the homeworks and presented in class helped	illuminate how the sampling methods can estimate what we want from the data. 
+
+	I really enjoyed this class, you've made a strong argument for the use of Bayesian inference and have undubtfully changed the way I think about statistics. 
+
+	x Definitely could be harder at times but I felt instructor really cared about making us understand the deeper aspects of statistical concepts and challenged us to think critically
+
+----- Pace
+
+	I appreciate how Dan always checks in with us and explains questions. 
+
+	x I think the pace that we went at for lectures was good. There was plenty of time to ask questions and slow down if needed, which was definitely very helpful for the long class periods.
+
+	x I really appreciated that Dan was very good about slowing down the pace of the course instead of flying through a bunch of material everyday and overwhelming us. He also was very good about pausing frequently throughout the lecture periods giving space for us to ask questions which is even more important with a Zoom class. 
+
+	the pace was good for the regular class lectures
+
+	I liked that you filled in the derivations in the notes by hand during class. Completing the notes in real time allowed for a good pace to process the steps/ information.
+
+	The fact that we took it slow and you gave us ample time to ask questions.
+
+	x Sometimes it felt like a big jump from methods 1 but I think you did a good job of guiding us through and going at our pace. 
+
+
+----- Course materials
+
+	I thought the note packets and the labs were very helpful.
+
+	Oh, and the textbook was a very helpful resource, so definitely keep that.
+
+	The homework was the most helpful with seeing problems and different datasets that these different methods could be used for. 
+
+	(D) Labs and homework [what was most useful for you learning]
+
+	The pre-typed lecture notes were very useful for studying and allowed to to focus better in class so I wouldn't be scrambling to write every detail down.
+
+	In general, the way Dan does notes is exceptional. By far my favorite professor as far as teaching goes due to his teaching method.
+
+	Having the scratch notes and code for each lecture are really helpful since we can always go back to them to review procedures and steps.
+
+	The lecture note and the lecture itself were interesting and easy to follow. Dan was very good with answering questions and explaining
+	difficult concepts.
+
+	my course notes definitely helped me with assignments/studying for the midterm exam.
+
+	The labs were helpful, I also liked the formatting of the notes.
+	
+	I really enjoyed this class and found the format of the lecture notes with spots to fill in very helpful.
+
+
+----- Labs
+
+	I thought that the R sessions were the most helpful for this course as it really allowed me to understand real world application. Going through these R applications in class and on my own really allowed me to digest the material in other ways then looking at how to just do everything mathematically.
+
+	the labs were really helpful in terms of applying our knowledge to actual analyses.
+
+	Learned to use statistical tools in real life scenarios and labs were very helpful.
+
+	Also the labs were very helpful.
+
+	Thanks for all the lectures, implementation, and labs.
+
+	I also found it helpful when Dan created an additional Bayesian lab and the simulation lesson. These intermediate steps helped out, and the fact that he took the time to create these labs/code for us meant a lot.
+
+	(D) I also liked the labs because I could go through them as an example to help with the homework. In particular, the MLR homework was a really good one because dealing with real life data where there isn't a "perfect" model or a right answer was a really good learning experience. For me, it's the application questions like these that really help me understand the theory behind the concepts (I often fall behind in class notes when we're just copying equations full of symbols I may not be familiar with). 
+
+	The applications/lab portions were helpful. The homework was also helpful even at times challenging (and lengthy). They were what solidified my knowledge.
+
+	The labs were also good with what functions could be used and what they were actually doing. 
+
+	The labs were very helpful.
+
+	Labs [most useful for your learning]
+
+	Labs and homework [what was most useful for you learning]
+
+	The labs are a very helpful way to digest the material taught in lecture. 
+
+	I think the labs were very very useful. While I understand we cannot skip over the math, doing the labs truly helped me understand what was going on. I also liked a lot how they were really self paced and self-guided. I think that helped me really grapple with the concepts, and I think that helped me understand more the implementation side as well.
+
+	The labs. [most useful for your learning]
+
+	I did like the format of his labs and how goals were clearly asked.
+
+	The combination of lecture and labs was very helpful. 
+
+	The labs towards the end of the semester were of immense help since guided us on how to put in practice the different approaches for coding our samplers.
+
+	Labs were very helpful in understanding the material, and a great resource to have for the future
+
+	Homework and labs were the most helpful.
+
+	The time in lab on the computers was super helpful.
+
+	The computing lab was particularly helpful.
+
+	I think the lab time was very useful since it helped me understand the process of implementing my own MCMC algorithms much better.
+
+	I think one of the most useful things we did in the class was the lab. Yes, it was helpful for the project, but I learned more about the application of MCMC during that lab than I did reviewing the code you provided.
+
+	The lab towards the end of the semester helped a lot with applying the content from the computing lecture.
+
+	(D) The labs were helpful, I also liked the formatting of the notes.
+	
+	
+----- Project
+
+	I think that the project helped me a lot too. Being able to grapple with a network "in the wild" helped me to understand how to work with them better. The network I worked with wasn't cleaned and in the format as we have been working with them in labs. I think this fact helped me to better understand some of the complexities that go into working with networks in the real world.
+
+	The final project was probably the most useful for learning, followed by the labs.
+
+	I also enjoyed listening to all the presentations during the last week of classes.
+
+	I think the project at the end is a great way to allow the students to apply the tools learned from the course.
+
+	x Project was a big learning lesson to implement concepts learned in class.
+
+	I liked the project, getting to work with someone in the class and practice giving formal but short presentations.
+
+	This was one of my favorite classes. I learned a lot. The final project also contributed.
+	Thank you!
+
+	I really enjoyed the final project
+
+----- HW
+
+	The assignments were well structured and good "exercises" for learning Bayesian tools, that I'll be using for a long time.
+
+	For the most part the homework assignments really helped solidify the concepts. 
+
+	Additionally, I thought that the HWs were set up really well in order to reinforce the material of this class.
+
+	The assignments were helpful for focusing in on what lectures were trying to teach.
+
+	The homework assignments really helped me with understanding the concepts through implementation.
+
+	The homework assignments were the most useful tools for learning. They helped provide a focus for the most important aspects of the course as well as an opportunity to implement main ideas of the course.
+
+	I liked how the homeworks had both conceptual and application sections, because it makes you think and helps you understand how to put theory into practice. 
+
+	I also liked the labs because I could go through them as an example to help with the homework. In particular, the MLR homework was a really good one because dealing with real life data where there isn't a "perfect" model or a right answer was a really good learning experience. For me, it's the application questions like these that really help me understand the theory behind the concepts (I often fall behind in class notes when we're just copying equations full of symbols I may not be familiar with). 
+
+	(D) The applications/lab portions were helpful. The homework was also helpful even at times challenging (and lengthy). They were what solidified my knowledge.
+
+	I hate to be this person, but maybe more homework? I think I learned a lot having to think through problems that were an extension of class and I think a few more assignments may have pushed the ideas that much further into my head. [what changes would you suggest]
+
+	The assignments are well designed to practice what we learned.
+
+	I kind of wish there was more homework in the second half of the semester.
+
+	Assignments and their relevance[ both mathematical calculation and using code]
+
+	The programming exercises in the homeworks. [most useful for your learning]
+
+	Homeworks  [most useful for your learning]
+	
+	The homework questions, particularly the ones that were written by the professor, were very helpful. I think the Bayesian computation homework problems were essential for my understanding on how to implement these complicated algorithms.  [most useful for your learning] 
+
+	I found the homework most effective. It utilized the course lecture material well.
+
+	I believe the homework assignments were the most useful to my learning.
+
+
+----- Multiple viewpoints
+
+	The focus of the course on both frequentist and Bayesian methods was a great choice and help facilitate my understanding of the material a lot. 
+
+	I also how some homeworks had frequentist vs. Bayesian sections because comparing them side by side helps you understand the similarities and differences. 
+
+	Hearing different perspectives/opinions on statistical practice. [most useful for your learning]
+
+	A focus on Bayesian methods was great as that was something I have never seen before
+
+
+----- Examples in class
+
+	*It was helpful to give the hemoglobin, favorite shoe brand, and the other survey example to illustrate the theoretical content in a more applied example.  
+
+	I found the in-class examples to be helpful. 
+
+	The examples, specifically the visual examples were very helpful in order to understands concepts.
+
+	Applied examples in the lecture were also helpful.
+
+	x The lectures were the most helpful, especially the many illustrations of the theory with data
+
+	Overall very interesting course. Consistently working through examples for each topic was a helpful instructional method.
+
+	The instructor was consistent in showing examples that he had done in class, and the HW gave the students an opportunity for independent practice
+
+
+----- Overall praise
+	*Dan is fantastic!
+
+	Professor Sewell is an excellent instructor. I learnt a lot and I really enjoyed his class.
+
+	(D) I really enjoyed this course, and I actually look forward to it every day!
+
+	It was one of my best course.
+
+	All aspects of this course was helpful.
+
+	I enjoyed this course.
+
+	I thought this course was very interesting and am glad I took it even if I don't end up seeing much network data in practice.
+
+	I thoroughly enjoyed the SMC/filtering section of the course. This would be my first time being formally taught that and you did a superb job.
+
+	This was a great course. I wish it were offered as a full course... [BIOS 7600]
+
+	The topic was fascinating and the professor clearly knows the material and is excited by it.
+
+	Excellent professor, thanks for a great semester!
+
+	Good exposure to Bayesian content!
+
+	It was a great experience.
+
+	I really enjoyed the class and learned so much from it! Thank you so much for a wonderful semester!
+
+	It's a great course to learn! I appreciate the instructor's efforts.
+
+	Thank you for your teaching and help!
+
+	I really liked it :)
+
+
+
+
+
+
+
+
+--- 
+	I liked how Dan provided class time work on the labs and ask him questions.
+
+	Class lecture was very helpful.
+
+	The lectures were always interesting
+
+	Office hours were incredibly helpful
+
+	I think this course was extremely interesting. I particularly enjoyed learning about all the sampling algorithms and their usefulness. I would also say that I definitely came to appreciate the complexity and cleverness of Bayesian methodology.
+
+	This course enhanced my programming skills.
+
+	Lectures were helpful for my learning. I thought the instructor explained concepts well during lecture, 
+
+	The instructor's prompt responses to email [most useful for your learning]
+
+	Emailing responses to questions that are useful to the whole class. [most useful for your learning]
+
+	Office hours were very useful in helping cement certain concepts
+
+	The lectures were really done well in a way that facilitated learning. Seeing the derivation live and also having pressure on to answer questions made the class somewhat stressful over zoom, but is what really allowed for a successful learning enviornment.
+--- 
+
