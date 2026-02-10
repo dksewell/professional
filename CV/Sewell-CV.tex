@@ -1,3 +1,6 @@
+% Options -> Configure TeXstudio -> Build -> Default Bibliography Tool = bibtex, usually, but for this doc set to biber
+% DISREGARD: Under Build & View, it usually should be txs:///compile | txs:///view but for this doc set to txs:///compile | txs:///biber | txs:///compile | txs:///compile
+
 \documentclass[11pt]{article}
 
 \usepackage{array}
@@ -7,14 +10,22 @@
 
 \usepackage{amssymb,enumerate, latexsym,amsmath,graphicx,epstopdf,dsfont,outlines,tikz,placeins,amsthm,subfigure,changepage,relsize,enumitem,etoolbox}
 
-\usepackage[backend=biber,sorting=ydnt,style=nature]{biblatex}
-\addbibresource{Sewell-bib.bib}
+% \usepackage[backend=biber,sorting=ydnt,style=chem-acs]{biblatex}
+\usepackage[backend=biber,sorting=ydnt,style=apa]{biblatex}
+% \addbibresource{SewellBibFiles.bib}
+\addbibresource{justSewellRefs.bib}
 
 
 \usepackage{multicol,pbox}
 \usepackage[margin=0.6in]{geometry}
-\usepackage{lmodern,slantsc,longtable}
+\usepackage{lmodern}
+\usepackage{slantsc}
+\usepackage{longtable}
 \usepackage{titlesec} % Used to customize the \section command
+\usepackage{colortbl}
+
+\newcommand{\grayline}{\arrayrulecolor{gray!50} \hline \arrayrulecolor{black}}
+
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{3pt}{6pt} % Spacing around sections
 \titleformat{\subsection}{\large\scshape\raggedright}{}{0em}{} % Text formatting of sections
@@ -28,46 +39,307 @@
 \pagestyle{empty}
 \begin{document}
 
-\nocite{anthony2017seasonal}
-\nocite{anthony2018seasonal}
-\nocite{baker2018fecalfingerprints}
-\nocite{baquero2018active}
-\nocite{bernhard2017clustering}
-\nocite{danielulloa2020demographic}
-\nocite{devotta2017spatial}
-\nocite{dow2017teamwork}
-\nocite{dow2019evaluating}
-\nocite{jang2019evaluating}
-\nocite{jang2020datadriven}
-\nocite{kava2018organizational}
-\nocite{kava2018qualitative}
-\nocite{kava2019associations}
+
+% "Identifying the Social Determinants of Treated Hypertension in New and Established Latino Destination States" Adriana's Ch1 paper accepted in Journal of Immigrant and Minority Health
+% jrss c pooled testing paper
+% elliot's bayesian analysis paper
+% elliot's ppmi paper
+% haomin's weighted edge clustering paper
+% hannah's automated model selection for edge clustering paper
+% mpmm paper
+% cdi pressure paper 1 (in-degree)
+% cdi pressure paper 2 (out-degree)
+% quarantining and screening paper
+% bias adjusted loss functions
+% HD neurological decline paper?
+
+
+% Insights from the front line: Uplifting stories of the COVID-19 pandemic through the eyes of the public health workforce in Iowa
+
+
+\nocite{pham2026homophily}
+% apr 
+% mybibliography
+
+
+\nocite{tu2026network}
+% apr 
+% mybibliography
+
+
+\nocite{tanaka2025meld}
+% apr 
+% mybibliography
+
+
+\nocite{sewell2025estimating}
+% apr 
+% mybibliography
+
+
+\nocite{tumwebaze2025domestic}
+% apr 
+% mybibliography
+
+
+\nocite{tanaka2025refining}
+% apr 
+% mybibliography
+
+\nocite{haines2025insights}
+% apr 
+% mybibliography1
+
+\nocite{arakkal2025jane}
+% apr 
+% mybibliography1
+
+\nocite{li2025model}
+% apr
+% mybibliography1
+
+\nocite{gutema2024spatial}
+% apr
+% mybibliography1
+
+\nocite{houser2024multipathogen}
+% apr
+% mybibliography1
+
+\nocite{mberu2024landscape}
+% apr
+% mybibliography1
+
+\nocite{miller2024hospitalizations}
+% apr
+% mybibliography1
+
+\nocite{baquero2024effectiveness}
+% apr
+% mybibliography1
+
+\nocite{tu2024patient}
+% apr
+% mybibliography1
+
+\nocite{busienei2024development}
+% apr
+% mybibliography1
+
+\nocite{sewell2024posterior}
+% apr
+% mybibliography1
+
+\nocite{li2024comparing}
+% apr1 but still needs details updated
+% mybibliography1
+
+\nocite{pham2024automated}
+% apr
+% mybibliography1
+
+\nocite{kibbi2023dirty}
+% apr1 but still needs details updated
+% mybibliography1
+\nocite{maldonado2023association}
+% apr1 but still needs details updated
+% mybibliography1
+
+\nocite{gutema2024enterococcus}
+% apr1
+% mybibliography1
+\nocite{baker2023protocol}
+% apr1
+% mybibliography1
+\nocite{mullan2023predicting} 
+% apr1
+% mybibliography1
+\nocite{miller2023comparison}
+% apr1
+% mybibliography1
+\nocite{afifi2023ignored}
+% apr1
+% mybibliography1
+\nocite{chen2023editorial}
+% apr1
+% mybibliography1
+\nocite{correa2023students}
+% apr1
+% mybibliography1
+\nocite{burghardt2022aggolomerative}
+% apr1
+% mybibliography1
+\nocite{justice2022evidence}
+% apr1
+% mybibliography1
+\nocite{baker2022environmental}
+% apr1
+% mybibliography1
+\nocite{heeren2022applying}
+% apr1
+% mybibliography1
+\nocite{sewell2022leveraging}
+% apr1
+% mybibliography1
+\nocite{sewell2022networkinformed}
+% apr1
+% mybibliography1
+\nocite{maldonado2022identifying}
+% apr1
+% mybibliography1
+\nocite{miller2022risk} % Add to mybibliography
+% apr1
+% mybibliography1
+\nocite{hoffman2022milk}
+% apr1
+% mybibliography1
+\nocite{devotta2021spatial}
+% apr1
+% mybibliography1
+\nocite{hasan2021modeling}
+% apr1
+% mybibliography1
+\nocite{justice2021inferring}
+% apr1
+% mybibliography1
 \nocite{li2020comparison}
-\nocite{medgyesi2018landscape}
-\nocite{medgyesi2018where}
-\nocite{Metcalf2018}
-\nocite{pai20spatiotemporal}
-\nocite{peterson2017warmer}
-\nocite{sato2018social}
-\nocite{sewell2015analysis}
-\nocite{sewell2015latent}
-\nocite{sewell2015parameter}
-\nocite{sewell2016model}
-\nocite{sewell2016weighted}
-\nocite{sewell2017heterogeneity}
-\nocite{sewell2017latent}
-\nocite{sewell2017network}
-\nocite{sewell2018simultaneous}
-\nocite{sewell2018visualizing}
-\nocite{sewell2019analysis}
-\nocite{sewell2019css}
-\nocite{sewell2019estimating}
-\nocite{sewell2019multilinear}
+% apr1
+% mybibliography1
 \nocite{sewell2020model}
-\nocite{sewell2020predicting}
+% apr1
+% mybibliography1
+\nocite{zhang2021mild}
+% apr1
+% mybibliography1
+\nocite{danielulloa2020demographic}
+% apr1
+% mybibliography1
+\nocite{dore2020gis}
+% apr1
+% mybibliography1
+\nocite{jang2020datadriven}
+% apr1
+% mybibliography1
+\nocite{kharkar2020naturally} 
+% apr1
+% mybibliography1
+\nocite{miller2020risk}
+% apr1
+% mybibliography1
+\nocite{Miller2020infection}
+% apr1
+% mybibliography1
+\nocite{Miller20association}
+% apr1
+% mybibliography1
+\nocite{pai20spatiotemporal}
+% apr1
+% mybibliography1
+\nocite{polgreen2020pharmacist}
+% apr1
+% mybibliography1
 \nocite{sewell2020simulationfree}
+% apr1
+% mybibliography1
+\nocite{sewell2020predicting}
+% apr1
+% mybibliography1
+\nocite{dow2019evaluating}
+% apr1
+% mybibliography1
+\nocite{jang2019evaluating}
+% apr1
+% mybibliography1
+\nocite{kava2019associations}
+% apr1
+% mybibliography1
+\nocite{medgyesi2018landscape}
+% apr1
+% mybibliography1
+\nocite{sewell2019analysis}
+% apr1
+% mybibliography1
+\nocite{sewell2019css}
+% apr1
+% mybibliography1
+\nocite{sewell2019multilinear}
+% apr1
+% mybibliography1
+\nocite{sewell2019estimating}
+% apr1
+% mybibliography1
+\nocite{zhu2019measuring}
+% apr1
+% mybibliography1
+\nocite{anthony2018seasonal}
+% apr1
+% mybibliography1
+\nocite{sato2018social}
+% apr1
+% mybibliography1
+\nocite{baker2018fecalfingerprints}
+% apr1
+% mybibliography1
+\nocite{baquero2018active}
+% apr1
+% mybibliography1
+\nocite{kava2018organizational}
+% apr1
+% mybibliography1
+\nocite{kava2018qualitative}
+% apr1
+% mybibliography1
+\nocite{medgyesi2018where}
+% apr1
+% mybibliography1
+\nocite{Metcalf2018}
+% apr1
+% mybibliography1
+\nocite{sewell2018simultaneous}
+% apr1
+% mybibliography1
+\nocite{sewell2018visualizing}
+% apr1
+% mybibliography1
+\nocite{anthony2017seasonal}
+% apr1
+% mybibliography1
+\nocite{bernhard2017clustering}
+% apr1
+% mybibliography1
+\nocite{dow2017teamwork}
+% apr1
+% mybibliography1
+\nocite{peterson2017warmer}
+% apr1
+% mybibliography1
+\nocite{sewell2017heterogeneity}
+% apr1
+% mybibliography1
+\nocite{sewell2017network}
+% apr1
+% mybibliography1
+\nocite{sewell2017latent}
+% apr1
+% mybibliography1
 \nocite{simmering2017legionnaires}
-\nocite{zhu2019identifying}
+% apr1
+% mybibliography1
+\nocite{sewell2016weighted}
+% apr1
+% mybibliography1
+\nocite{sewell2016model}
+% apr1
+% mybibliography1
+\nocite{sewell2015analysis}
+% apr1
+% mybibliography1
+\nocite{sewell2015latent}
+% apr1
+% mybibliography1
+\nocite{sewell2015parameter}
+% apr1
+% mybibliography1
 
 %\pagestyle{empty} % Removes page numbering
 
@@ -118,7 +390,11 @@
 \vspace{0.5pc}
 \section{Positions}
 \begin{tabular}{lll}
-	2015-Present & University of Iowa & Iowa City, IA \\
+	2025-Present & University of Iowa & Iowa City, IA \\
+				 & Professor, Department of Biostatistics & \\
+	2021-2025 & University of Iowa & Iowa City, IA \\
+				 & Associate Professor, Department of Biostatistics & \\
+	2015-2021 & University of Iowa & Iowa City, IA \\
 				 & Assistant Professor, Department of Biostatistics & \\
 	2020-Present & University of Iowa & Iowa City, IA \\
 				 & Faculty Affiliate at the UI Public Policy Center &\\
@@ -126,10 +402,21 @@
 
 \vspace{0.5pc}
 % \section{Publications}
-\printbibliography[title=Publications]
+% \printbibliography[title=Publications]
 
 \section{Awards}
 \begin{tabular}{r|p{16cm}}
+2025 & College of Public Health Faculty Research Award, University of Iowa \\
+2025 & Nominated for Student Supervisor of the Year Award \\
+2025 & International Travel Award, University of Iowa \\
+2025 & Dr. Carol S. Gleich Development Award \\
+2025 & Investment in Strategic Priorities Award, Office of the Executive Vice President and Provost, University of Iowa \\
+2023 & Inducted into the Delta Omega Honorary Society in Public Health \\
+2023 & Dr. Carol S. Gleich Development Award \\
+2023 & International Travel Award, University of Iowa \\
+2023 & President \& Provost Award for Teaching Excellence College of Public Health Nominee \\
+2022 & College of Public Health Faculty Teaching Award, University of Iowa \\% Update APR
+2022 & President \& Provost Award for Teaching Excellence College of Public Health Nominee \\
 2019 & International Symposium on Network Enabled Health Informatics, Biomedicine and Bioinformatics Best Paper Award \\% Update APR
 2017 & Junior Faculty Research Opportunity Award, College of Public Health, University of Iowa \\
 2015 & New Faculty Research Award, College of Public Health, University of Iowa \\
@@ -140,10 +427,15 @@
 2007 & Outstanding Calculus Award, Harding University 
 \end{tabular}
 
+\vspace{0.5pc}
+% \section{Publications}
+\printbibliography[title=Publications]
+
+
 \vspace{1pc}
 \section{Software}
 \begin{description}
-\item Author of R package \verb!dnc!, \verb!STAR!, \verb!curveRep!, \verb!LSMNP!, \verb!LSEC!
+\item Author of R packages \verb!bayesics!, \verb!dnc!, \verb!STAR!, \verb!curveRep!, \verb!LSMNP!, \verb!LSEC!, \verb!marginalMeans!, \verb!SUBSET!, \verb!LADIE!
 \item GPAQ calibration web application 
 \item University of Iowa COVID-19 Nonpharmaceutical Intervention Evaluation Web Application
 \end{description}
@@ -152,34 +444,86 @@
 \begin{tabular}{r|lc}
 \multicolumn{3}{l}{\large--\textsc{Instructor}--\normalsize}\\
 \multicolumn{1}{c}{}&&\pbox{4cm}{\hspace{1pc}\textsl{\textsc{Terms }}\\ \textsl{\textsc{Instructed}}}  \\ 
-University of Iowa & BIOS 5710: Biostatistical Methods I & 2 \\
-& BIOS 5720: Biostatistical Methods II & 3 \\
-& BIOS 6810: Bayesian Methods and Design & 3 \\
-& BIOS 7600: Statistical Analysis of Network Data & 1 \\
+University of Iowa & BIOS 5710: Biostatistical Methods I & 3 \\
+%F15, F17, F21
+& BIOS 5720: Biostatistical Methods II & 6 \\
+%S16, S18, S20, S21, S23, S24
+& BIOS 6810: Bayesian Methods and Design & 4 \\
+%S17, S19, F20, F22
+& BIOS 7600: Statistical Analysis of Network Data & 3 \\
+%F18, S22, F23
 University of Illinois &STAT 200: Statistical Analysis & 1 \\
 University of Arkansas & STAT 2303: Principles of Statistics & 1 \\
  &MATH 2043: Survey of Calculus & 1\\
 & MATH 1203: College Algebra & 2 \\
-\multicolumn{3}{l}{}\\
-\multicolumn{3}{l}{\large--\textsc{Lon-Capa Programmer}--\normalsize}\\
-University of Illinois &Stat 100: Statistics &\\
-\multicolumn{3}{l}{}\\
-\multicolumn{3}{l}{\large--\textsc{Tutor}--\normalsize}\\
-Arkansas State University, Searcy & Career Pathways &\\
-Harding University &Academic Resource Center &
+% \multicolumn{3}{l}{}\\
+% \multicolumn{3}{l}{\large--\textsc{Lon-Capa Programmer}--\normalsize}\\
+% University of Illinois & STAT 100: Statistics &\\
+% \multicolumn{3}{l}{}\\
+% \multicolumn{3}{l}{\large--\textsc{Tutor}--\normalsize}\\
+% Arkansas State University, Searcy & Career Pathways &\\
+% Harding University &Academic Resource Center &
 \end{tabular}
+
+
+
+
 
 \vspace{1pc}
 \section{Advising}
-\begin{tabular}{r|ll}
-%\multicolumn{1}{c}{}&\textsl{\textsc{Department}}& \textsl{\textsc{Course Title}} \\ 
-PhD Advisor & Elliot Burghardt & Biostatistics \\
+
+\begin{longtable}{p{0.15\textwidth}|p{0.2\textwidth}p{0.5\textwidth}} 
+% PHD ADVISOR
+\multicolumn{3}{c}{} \\
+\multicolumn{1}{l}{\large--\textsc{PhD Advisor}--\normalsize} &   & \\
+\grayline
+2021 & Elliot Burghardt & ``Agglomerative and Divisive Hierarchical Bayesian Clustering with Methods for Longitudinal and Time-to-Event Data'' \\
+2024  & Hannah Pham & ``Bayesian Latent Space Approaches to Network Analysis'' \\
+2024 & Haomin Li & ``Model-Based Edge Clustering for Networks:  Theory and Applications'' \\
+2025 & Alan Arakkal & ``Methodological and Computational Advances in Model-Based Community Detection'' (Tentative title) \\
+Current & Scott Cleven & ``Network Moderated Regression Techniques'' (Tentative title) \\
+Current & Kailey Mulligan & ``Agent Based Models for Infectious Disease: Estimation and Methodology'' \\
+Current & Mark Krysan & ``Advances in General Bayesian Inferential Techniques'' (Tentative title) \\
+% MS PRECEPTORSHIP
+\multicolumn{3}{c}{} \\
+\multicolumn{1}{l}{\large--\textsc{MS Advisor}--\normalsize} &   & \\
+\grayline
+2016 & Amy Hahn & ``Testing associations between geographical patterns and network connectivity via latent space community detection models''\\ 
+2019 & Hannah Pham & ``Quantifying Changes in Physical Activity Compositions of a Community in Iowa'' \\
+2019 & Haomin Li & ``A comparison of estimators for the network autocorrelation model based on observed social networks'' \\
+2021 & Scott Cleven & ``Differing Trends in Neurodegeneration between Prodromal Patients with Huntington’s Disease and Healthy Controls'' \\
+2021 & Blaize Kandler & ``Comparing Methods for Analyzing Clustered Data'' \\
+2021 & Seungwon Kim & ``Identifying individual and household risk factors for malaria in the Democratic Republic of the Congo  using generalized linear mixed models'' \\
+2023 & Sabin Gaire & ``Assessing the Validity and Reliability of Tractive GPS devices'' \\
+2025 & Mark Krysan & ``Powering enteric disease models through characterization of infant behaviors and caregiver mitigation practices in low – and middle – income Kenyan neighborhoods'' \\
+ % COMMITTEE
+\multicolumn{3}{c}{} \\
+\multicolumn{1}{l}{\large--\textsc{PhD Committee}--\normalsize} &   & \\
+\grayline
 Committee member  & Brandon Butcher & Biostatistics \\
+ & Christine Kava & Community and Behavioral Health \\
+ & Samuel Justice & Statistics and Actuarial Science \\
 & Seungwon Kim & Geographical and Sustainability Sciences \\
-&Kyle Peterson & Interdisciplinary Graduate Program in Informatics \\
 & Adriana Maldonado & Community and Behavioral Health \\
-& Michael Seerdorff & Biostatistics \\
- & Christine Kava & Community and Behavioral Health 
+& Kyle Peterson & Interdisciplinary Graduate Program in Informatics \\
+& Michael Seedorff & Biostatistics \\
+& Eldon Sorenson & Biostatistics \\
+& Caitlin Ward & Biostatistics \\
+& Annika Helverson & Biostatistics \\
+& Logan Harris & Biostatistics \\
+& Devin Spolsdoff & Biostatistics \\
+\end{longtable}
+
+
+
+
+\vspace{1pc}
+\section{Editorial Boards}
+\begin{tabular}{ll}
+Computational Statistics \& Data Analysis & Associate Editor (Current) \\
+Scientific Reports & Associate Editor (Current) \\
+Journal of Data Science & Guest editor for ``Advances in network data science''  \\
+Journal of the American Statistical Association & Associate Editor \\
 \end{tabular}
 
 \vspace{1pc}
@@ -187,21 +531,25 @@ Committee member  & Brandon Butcher & Biostatistics \\
 \large--\textsc{Active}--\normalsize \\ \vspace{-1.5pc}
 \begin{description}
 \setlength\itemsep{0pc}
-\item (PI) Statistical and Agent-based Modeling of Complex Microbial Systems:  A Means for Understanding Enteric Disease Transmission Among Children in Urban Neighborhoods of Kenya (Recently Awarded by NIH/Fogarty International Center, \# not yet assigned)
-\item Modeling Infectious Diseases in Healthcare research Projects to Improve Prevention Research and Healthcare Delivery (Recently Awarded by CDC, \# not yet assigned)
-\item Connected Cancer Care: EHR Communication Networks in Virtual Cancer Care Teams (1 R21 HS026075-01A1)
-\item Care Coordination Networks (Public Policy Center Summer Scholars Project)
+\item (PI) SMART Cancer Care Teams: Enhancing EHR Communication to Improve Interprofessional Teamwork (5 R01 CA273058)
+\item (PI) Statistical and Agent-based Modeling of Complex Microbial Systems:  A Means for Understanding Enteric Disease Transmission Among Children in Urban Neighborhoods of Kenya (1 R01 TW011795)
+\item The CONNECT-AD Study: Communication and Network Navigation for Effective Care Teams in Alzheimer's Disease and Alzheimer's Disease Related Dementias (AD/ADRD) (Awarded)
+% \item Modeling Infectious Diseases in Healthcare research Projects to Improve Prevention Research and Healthcare Delivery (Recently Awarded by CDC, \# not yet assigned) What is this?
 \item A Pharmacist Intervention for Monitoring and Treating Hypertension Using Bidirectional Texting (1 R61 HL144880-01A1)
 \item University of Iowa Prevention Research Center for Rural Health (5 U48 DP005021-05; 6 U48 DP006389-02)
-\item Contact Network Transmission Modeling of Healthcare Associated Infections (5 U01 CK000531-02)
-\item Statistical Disease Modeling and Clinimetrics to Prepare for Preventive Trials in Huntington Disease (5 R01 NS103475-02)
-\item Preparing for Preventive Clinical Trials in Huntington's Disease (1 R01 NS105509-01)
-\item Market to Mouth Infant Food Contamination Study: A Collaboration between the Safe Start Study and IFPRI (2018X134.UOI)
 \item Iowa Summer Institute for Research Education in Biostatistics (1 R25 HL147231-01)
 \end{description}
 \large--\textsc{Completed}--\normalsize \\ \vspace{-1.5pc}
 \begin{description}
 \setlength\itemsep{0pc}
+\item University of Iowa COVID-19 Flex Funding Award
+\item Contact Network Transmission Modeling of Healthcare Associated Infections (5 U01 CK000531-02)
+\item Connected Cancer Care: EHR Communication Networks in Virtual Cancer Care Teams (1 R21 HS026075-01A1)
+\item Grinnell College \& U. Iowa Residential College/Schools Prevention and Control of SARS-CoV-2
+\item Market to Mouth Infant Food Contamination Study: A Collaboration between the Safe Start Study and IFPRI (2018X134.UOI)
+\item Care Coordination Networks (UI Public Policy Center Summer Scholars Project)
+\item Statistical Disease Modeling and Clinimetrics to Prepare for Preventive Trials in Huntington Disease (5 R01 NS103475-02)
+\item Preparing for Preventive Clinical Trials in Huntington's Disease (1 R01 NS105509-01)
 \item New Faculty Research Award
 \item Junior Faculty Research Opportunity Award
 \item e-Health (82154300)
@@ -209,26 +557,41 @@ Committee member  & Brandon Butcher & Biostatistics \\
 
 \section{Presentations}
 \vspace{-1pc}
-\begin{longtable}{r|p{15cm}}
+\begin{longtable}{r|p{15.5cm}}
 \multicolumn{2}{l}{\large--\textsc{Invited Talks}--\normalsize}\\
+2026 & ``Capturing inter-parameter relationships in priors through exponential tilting," at the \textit{ASA Midwest Regional Conference in Statistics and Data Science}, Minneapolis, MN\\
+2026 & ``Climate, Societal Development, and Hygiene Determinants of Enteric Pathogen Transmission at the One Health Interface in two Kenyan Cities," at \textit{CUGH Annual Conference},  Washington D.C.\\
+2025 & ``Camouflaged connections: Noise clusters in network community detection," at the Summer Session of the Working Group on Model-Based Clustering,  Sophia Antipolis, France\\
+2025 & ``WECAN: Weighted Edge Clustering Adjusting for Noise," at Sunbelt INSNA Annual Conference, Paris, France\\
+2025 & ``From data to decisions: How to leverage the networks in which we are embedded to improve health outcomes," at Industrial and Systems Engineering, University of Iowa \\
+2024 & ``Homophily-adjusted social influence estimation," at {\it Joint Statistical Meetings}, Portland, OR \\
+2024 & ``Healthcare disparities exhibited in length of stay for inpatient visits,'' for the CDC MInD Healthcare Network, Virtual \\
+2023 & ``Divisive Hierarchical Bayesian Clustering on Longitudinal Data: Identifying Parkinson's Disease Subtypes," at {\it Joint Statistical Meetings}, Toronto, CA \\
+2023 & ``Agglomerative and Divisive Hierarchical Bayesian Clustering,'' at the Summer Session of the Working Group on Model-Based Clustering, Pittsburgh, PA \\
+2023 & ``Comparing multiple infection control 
+measures in a nursing home setting: 
+A simulation study,'' for the CDC MInD Healthcare Network, Virtual \\
+2022 & ``The community-hospital feedback loop,'' at the MInD Grantee Meeting 2022, Atlanta, GA \\
+2022 & ``Automated detection of edge clusters,'' at Social Networks and Beyond, New York, NY \\
+% 2021 & ``Divisive Hierarchical Bayesian Clustering of Longitudinal Data,'' at CMStatistics, London, England \\
 2021 & ``Model-based edge clustering,'' at the Summer Session of the Working Group on Model-Based Clustering, Athens, Greece \\
-%2020 & ``Model-based edge clustering,'' at Department of Statistics, University of Iowa \\ %Update APR
+2020 & ``Model-based edge clustering,'' at the University of Iowa, Department of Statistics \\
 2020 & ``Facing the Facts: The Role of Face Coverings in Containing COVID-19'' College of Public Health webinar on face coverings \\
 2020 & ``Understanding, Predicting and Planning for Resilience- Epidemiologic Modeling,'' Office of the Vice President for Research Webinar on COVID-19 \\ 
 2020 & ``Mining Social Network Data - EDA \& Visualization ,'' ASA Statistical Learning and Data Science Section webinar series ``Introductory Overview Lectures in Data Science'' \\ %Update APR
 2019 & ``Model-based edge clustering,'' at Shambaugh Conference on International Relations and Network Analysis, University of Iowa \\ %Update APR
 2019 & ``Multilinear tests of association between two networks,'' at Classification and Data Analysis Group Meeting, Cassino, Italy \\ %Update APR
-2019 & ``An introduction to the statistical analysis of network data,'' at Sapienza, Universit\'a di Roma \\
-2019 & ``Network analysis: Applications and extant challenges,'' at the University of Iowa, Department of Applied Mathematical and Computational Sciences \\
+% 2019 & ``An introduction to the statistical analysis of network data,'' at Sapienza, Universit\'a di Roma \\
+% 2019 & ``Network analysis: Applications and extant challenges,'' at the University of Iowa, Department of Applied Mathematical and Computational Sciences \\
 2018 & ``Heterogeneous susceptibilities in network influence models,'' at CMStatistics, Pisa, Italy\\
 2018 & ``Estimating the attributable disease burden and effects of inter-hospital patient sharing on {\it Clostridium difficile} infections in California,'' at the International Conference on Emerging Infectious Diseases, Atlanta, GA\\
 2017 & ``Simultaneous and temporal autoregressive network models,'' at Iowa State University, Department of Statistics \\
 2017 & ``Statistical analysis of networks in bioinformatics: Getting the right data,'' Informatics Showcase, University of Iowa\\
-2017 & ``Measuring electronic communication networks in virtual healthcare teams using electronic health records cccess-log data,'' with Zhu X, Tu SP, Hall L, Mishra V, Yao A, Dow A, and Banas C., at {\it INSNA Sunbelt Conference}, Beijing, China \\
+2017 & ``Measuring electronic communication networks in virtual healthcare teams using electronic health records cccess-log data,'' with Zhu X, Tu SP, Hall L, Mishra V, Yao A, Dow A, and Banas C., at {\it Sunbelt INSNA Annual Conference}, Beijing, China \\
 2017 & ``The effects of analyzing subsets of hospital patient transfer networks'' at the University of Iowa, Department of Geographical and Sustainability Sciences \\
 2016 & ``Clustering dynamic and evolving data'' at the University of Iowa, Department of Biostatistics \\
 2016 & ``Clustering dynamic and evolving data'' at the University of Iowa, Department of Political Science \\
-2016 &"Simultaneous and temporal autoregressive network models," at {\it INSNA Sunbelt Conference}, Newport Beach, CA \\
+2016 &"Simultaneous and temporal autoregressive network models," at {\it Sunbelt INSNA Annual Conference}, Newport Beach, CA \\
 2016 &``Social network analysis,'' at the Center for Comprehensive Access And Delivery Research And Evaluation \\
 2015 & ``Latent space models for dynamic networks," at the University of Iowa, Department of Statistics and Actuarial Science \\
 2015 &``Latent space models for dynamic networks," at the University of Iowa, Department of Computer Science \\
@@ -248,10 +611,10 @@ Committee member  & Brandon Butcher & Biostatistics \\
 2014 & ``Latent space models for dynamic networks," {\it Midwest Statistics Research Colloquium}, Chicago, IL \\
 \multicolumn{2}{l}{}\\
 \multicolumn{2}{l}{\large--\textsc{Invited Posters}--\normalsize}\\
-2020 & ``Bayesian Hierarchical Clustering,'' at {\it Joint Statistical Meetings}, Philadelphia, PA\\
+2024 & ``Enteric pathogen prevalence, incidence and clearance rates, and shedding intensity in urban Kenyan infants from molecular testing of sequential fecal samples,'' at {\it ASTMH Annual Meeting}, New Orleans, LA\\
 2020 & ``Estimating the Impact of County Boundaries on State-wide Patient-sharing Network Models,'' at {\it Decennial 2020: 6th International Conference on Healthcare Associated Infections}, Atlanta, GA\\
 2020 & ``Exploring the Potential Limitations of Using Medicare Data to Study the Spread of Infections from Hospital Transfers,'' at {\it Decennial 2020: 6th International Conference on Healthcare Associated Infections}, Atlanta, GA\\
-\multicolumn{2}{l}{}\\
+\multicolumn{2}{l}{}\\ \newpage
 \multicolumn{2}{l}{\large--\textsc{Contributed Talks}--\normalsize}\\
 2016 & "Simultaneous and temporal autoregressive network models," at {\it Joint Statistical Meetings}, Chicago, IL \\
 2015 & ``Analysis of the formation of the structure of social networks," at {\it Joint Statistical Meetings}, Seattle, WA \\
@@ -269,26 +632,34 @@ Committee member  & Brandon Butcher & Biostatistics \\
 2016 & Workshop on "Introduction to R," at {\it Informatics Showcase}, University of Iowa
 \end{longtable}
 
-\section{Refereed Journals}
+\section{Refereed Journals/Funding Agencies}
 \begin{description}
 \setlength\itemsep{0pc}
+\item {\it Applied Network Science}
 \item {\it Annals of Applied Statistics}
-\item {\it Bayesian Statistics}
+\item {\it Bayesian Analysis}
 \item {\it Biometrics}
+\item {\it BMC Infectious Diseases} %($\times$3)
 \item {\it BMJ Open} %($\times$3)
-\item {\it Computational Statistics and Data Analysis}
+\item {\it Computational Statistics \& Data Analysis}
+\item {\it Communications in Statistics}
 \item {\it Expert Systems with Applications}
 \item {\it Extremes}
+\item Great Plains IDeA CTR Pilot Program
+\item \textit{ International Journal of Nursing Practice}
+\item {\it JAMA Network Open}
 \item {\it Journal of Allergy and Clinical Immunology}
 \item {\it Journal of the American Statistical Association T\&M}
 \item {\it Journal of the American Statistical Association A\&CS}
 \item {\it Journal of Computational and Graphical Statistics}
 \item {\it Journal of Econometrics}
 \item {\it Journal of Educational and Behavioral Statistics}
+\item {\it Journal of Medical Internet Research AI}
 \item {\it Journal of Multivariate Analysis}
 \item {\it Journal of the Royal Statistical Society, Series A}
 \item {\it Journal of the Royal Statistical Society, Series B}
 \item {\it Journal of the Royal Statistical Society, Series C}
+\item {\it Journal of Statistical Planning and Inference}
 \item {\it Multivariate Behavioral Research}
 \item {\it Network Science}
 \item National Science Foundation
@@ -296,21 +667,28 @@ Committee member  & Brandon Butcher & Biostatistics \\
 \item Polish National Science Centre
 \item {\it Psychometrika}
 \item {\it Social Networks}
+\item {\it STAT}
 \item {\it Statistics and Computing}
 \item {\it Statistics and Its Interface}
+\item {\it Statistics in Medicine}
+\item {\it Statistical Methods \& Applications}
 \end{description}
 
-\section{Professional Experience}
-\begin{description}
-\item \textit{Consultant}: Illinois Consulting Office, University of Illinois, 2012-2015
-\item \textit{Actuarial Examination}: Successful passing score on SOA/CAS/CIA Exam P/1 (Probability)
-\end{description}
+% \section{Professional Experience}
+% \begin{description}
+% \item \textit{Consultant}: Illinois Consulting Office, University of Illinois, 2012-2015
+% \item \textit{Actuarial Examination}: Successful passing score on SOA/CAS/CIA Exam P/1 (Probability)
+% \end{description}
 
 \section{Professional Activities}
 \begin{tabular}{r|p{15cm}}
+2026-present & Associate Editor, Computational Statistics \& Data Science \\
+2024-present & Associate Editor, Scientific Reports \\
+2022-2025 & Associate Editor, Journal of the American Statistical Association \\
+2021-present & Guest Editor, Journal of Data Science \\
 2018-present & Biostatistics Colloquium Committee (Chair) \\
-2018-present & Chapter representative of the Iowa Chapter of the American Statistical Association \\
-2016-2018 & Faculty mentor for the Iowa Summer Institute in Biostatistics at the University of Iowa \\
+2018-2020 & Chapter representative of the Iowa Chapter of the American Statistical Association \\
+2016-2018, 2020 & Faculty mentor for the Iowa Summer Institute in Biostatistics at the University of Iowa \\
 2016-2017 & Member of faculty search committee for the Department of Biostatistics at the University of Iowa \\
 2015-2018 & Member of the advanced statistical computing course exploratory committee for the Department of Biostatistics at the University of Iowa \\
 2015-present & Member of M.S. Exam Committee for the Department of Biostatistics at the University of Iowa \\

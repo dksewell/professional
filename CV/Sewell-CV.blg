@@ -1,0 +1,35 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Sewell-CV.blg'
+[89] biber-MSWIN64:340> INFO - === 
+[133] Biber.pm:420> INFO - Reading 'Sewell-CV.bcf'
+[238] Biber.pm:994> INFO - Found 86 citekeys in bib section 0
+[251] Biber.pm:4463> INFO - Processing section 0
+[260] Biber.pm:4654> INFO - Looking for bibtex file 'justSewellRefs.bib' for section 0
+[347] bibtex.pm:1713> INFO - LaTeX decoding ...
+[458] bibtex.pm:1519> INFO - Found BibTeX data source 'justSewellRefs.bib'
+[989] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[989] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[989] Biber.pm:4283> INFO - Sorting list 'ydnt/apasortcite//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[989] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1162] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1162] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1162] Biber.pm:4283> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[1162] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1252] bbl.pm:676> INFO - Writing 'Sewell-CV.bbl' with encoding 'UTF-8'
+[1412] bbl.pm:779> INFO - Output to Sewell-CV.bbl
+[1413] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'baker2023protocol' is not an integer - this will probably not sort properly.
+[1413] Biber.pm:131> WARN - legacy month field 'June' in entry 'Miller20association' is not an integer - this will probably not sort properly.
+[1413] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'kava2018qualitative' is not an integer - this will probably not sort properly.
+[1413] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'Metcalf2018' is not an integer - this will probably not sort properly.
+[1413] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\dksewell\AppData\Local\Temp\biber_tmp_ZiFU\7f01bb3d069d1278cb31b6e73f93030d_6432.utf8, line 209, warning: undefined macro "published"
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1413] Biber.pm:133> INFO - WARNINGS: 15
