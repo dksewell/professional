@@ -1,0 +1,64 @@
+name: Build and Publish CV PDF to GitHub Pages
+
+on:
+  push:
+    paths:
+      - '**.tex'
+      - '**.bib'
+      - '**/CV/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Install a modern full TeX Live (includes Biber)
+    - name: Install TeX Live
+      run: sudo apt-get update && sudo apt-get install -y texlive-full
+
+    # Compile CV (adjust filename if needed)
+    - name: Compile PDF with latexmk
+      working-directory: ./CV
+      run: |
+        latexmk -pdf -interaction=nonstopmode Sewell-CV.tex
+
+    # Upload the PDF as the artifact for the next job
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: cv
+        path: CV/Sewell-CV.pdf
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: cv
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Upload PDF to GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: .
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
