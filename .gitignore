@@ -55,6 +55,10 @@
 **/*.auxlock
 **/*.md5
 **/*.html
+**/*.bbl
+**/*.pdf
+**/*.run.xml
+
 
 # Ignore qmd output directories
 *_cache/
